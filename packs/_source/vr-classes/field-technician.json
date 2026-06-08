@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsFieldTech01",
+  "name": "Field Technician",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/field-technician.webp",
+  "system": {
+    "description": "<p>Field Technicians are the runners who keep the crew running. They learned their trade in corporate security medical wings, frontier clinics, or as the unofficial patcher of choice for a gang that could not call ambulances. They carry trauma kits, weapon mounts, repair drones, and the kind of cross-training that turns a side alley into a functioning forward operating base.</p><p>On the job, the Field Technician is everywhere at once: stabilizing the down teammate, slapping a fresh power cell into the Suppressor's launcher, unlocking the side door with a service uniform and a confident clipboard. They are the reason a job that should have ended in body bags ends in extraction.</p>",
+    "archetype": "VRArchArmament01",
+    "bonusSkills": 2,
+    "grants": "Combat first aid, weapon maintenance bonuses, deployable utility devices."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Combat support specialist who keeps the team in the fight",
+        "color": "#8b3a2a",
+        "tags": { "Archetype": "Armament", "Role": "Support" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsSuppressor1",
+  "name": "Suppressor",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/suppressor.webp",
+  "system": {
+    "description": "<p>Suppressors are the runners whose job is to make a hallway into a no-go zone. They came up on heavy weapons teams, in private military firms that specialized in convoy defense, or as the muscle behind the kind of fixer who needs an alley emptied in twelve seconds. They carry the loud answers: belt-fed machine guns, grenade launchers, sustained-fire platforms.</p><p>On the job, the Suppressor is the wall of noise behind which the rest of the team moves. They are not in love with the trigger so much as the geometry of denial; their satisfaction is in the enemy who could not push, could not flank, could not even raise their head. The work is heavy in both senses of the word, and the Suppressor wears that weight like a coat.</p>",
+    "archetype": "VRArchArmament01",
+    "bonusSkills": 0,
+    "grants": "Heavy weapon proficiency, area suppression mechanic, cover-shred attacks."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Heavy weapons specialist who locks down the battlefield with overwhelming fire",
+        "color": "#8b3a2a",
+        "tags": { "Archetype": "Armament", "Role": "Area" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

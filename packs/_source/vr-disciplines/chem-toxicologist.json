@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscChemTox001",
+  "name": "Toxicologist",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/chem-toxicologist.webp",
+  "system": {
+    "parentClass": "VRClsChemSpec001",
+    "description": "<p>Toxicologist is the Chemical Specialist discipline for runners who chose the quiet kill. Their craft is precision dosing: contact agents that act in seconds, vapors that disable rather than slay, antidotes that allow the team to walk through their own atmosphere. They came up in forensic labs, corporate pharmacology divisions, or as the discrete provider of choice for fixers who needed certain problems to look like natural causes.</p><p>On the job, the Toxicologist is the runner with a labeled case full of small ampoules and a careful, professional smile. Their entry feature is Custom Dose: they may apply a chosen toxin to a weapon, container, or surface as an action; affected creatures suffer escalating debuffs over three turns unless purged.</p>",
+    "grants": "Custom Dose: apply toxin to weapon/surface/container; escalating debuff over three turns."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Choose the molecule. Choose the dose. Choose the outcome",
+        "color": "#2d6e4e",
+        "tags": { "Class": "Chemical Specialist", "Focus": "Poisons" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

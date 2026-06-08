@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscMediaSig01",
+  "name": "Signal War",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/media-signal.webp",
+  "system": {
+    "parentClass": "VRClsMediaOp0001",
+    "description": "<p>Signal War is the Media Operative discipline for runners who decided the headline is the weapon. Practitioners specialize in narrative engagement at scale: timed leaks, coordinated postings across captive subreddits, manufactured outrage that arrives just before the team needs the corporate communications office distracted. They came up in influence operations divisions or the underground content shops that mocked those operations and then started copying them.</p><p>On the job, the Signal War operative is the runner who fights with the news cycle. Their entry feature is Story Strike: with one preparation scene before a major encounter the operative may seed a public narrative event that forces a chosen corporate or factional opponent to dedicate resources to response, reducing their effective presence on the job by a meaningful degree.</p>",
+    "grants": "Story Strike: pre-encounter narrative seeding reduces a chosen opponent's effective presence."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Fight the war one trending topic at a time",
+        "color": "#7a5c2a",
+        "tags": { "Class": "Media Operative", "Focus": "Narrative" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

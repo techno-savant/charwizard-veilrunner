@@ -1,0 +1,21 @@
+{
+  "_id": "VRArchMagical001",
+  "name": "Magical",
+  "type": "archetype",
+  "img": "modules/charwizard-veilrunner/art/archetypes/magical.webp",
+  "system": {
+    "description": "<p>The Veil tore through the world a generation ago, and those who learned to listen to it were never the same. Magical practitioners exist in the strange country between physics and prayer, where intent rewrites probability and a half-remembered name can crack a vault door. The corps tried to license them, the governments tried to register them, and the gangs tried to chain them. None of it took. The Veil answers to its own logic, and those who walk it answer mostly to themselves.</p><p>To be a Magical runner is to carry a piece of a wound that never closed. They burn brighter and shorter than the rest of the crew, and they know it. Some chase forbidden syllables in dead languages, some braid pop psychology and meditation into homemade thaumaturgy, some simply trust the static under their skin. All of them treat the laws of reality as suggestions, and the cost of breaking them as a line item.</p>",
+    "archetype": ""
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Practitioners who bend the fabric of the Veil itself",
+        "color": "#1a5c8a",
+        "tags": { "Role": "Arcane" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

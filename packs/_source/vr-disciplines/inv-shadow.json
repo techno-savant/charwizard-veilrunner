@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscInveShadw1",
+  "name": "Shadow Network",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/inv-shadow.webp",
+  "system": {
+    "parentClass": "VRClsInvestig001",
+    "description": "<p>Shadow Network is the Investigator discipline for runners who play the long game of relationships. Their value is not in surveillance equipment or database access; it is in the slow accumulation of contacts, favors, and verifiable confidences across every district that matters. A Shadow Network Investigator can name the bouncer, the barista, the second-shift loading dock supervisor, and the one cleaning crew tech who actually has access to the executive floor.</p><p>On the job, the Shadow Network Investigator is the runner who arrives with the right name to drop in every room. Their entry feature is Contact Web: once per session, the Investigator may declare that they know a specific minor NPC in a relevant context (security, services, vendors, fixers), establishing an existing relationship that the table accepts as canon.</p>",
+    "grants": "Contact Web: once per session, declare an existing relationship with a relevant minor NPC."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Know everyone who matters before walking into the room",
+        "color": "#7a5c2a",
+        "tags": { "Class": "Investigator", "Focus": "Network" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

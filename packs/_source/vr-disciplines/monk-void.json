@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscMonkVoid01",
+  "name": "Way of the Void",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/monk-void.webp",
+  "system": {
+    "parentClass": "VRClsMonk0000001",
+    "description": "<p>The Way of the Void is the Monk tradition that opened its doors a half step into the Veil and never closed them again. Void Monks meditate on absence: the gap between heartbeats, the breath that does not arrive, the empty room that does the work. The Veil reaches back through that absence, and they learn to use it as a lever.</p><p>On the job, a Void Monk slips through engagements like water finding a crack. Their entry feature is Step Between: once per encounter they may move up to their normal movement as a reaction, treating intervening cover and bodies as if they were not there. Observers report a brief soft hiss and the smell of cold metal where the Monk used to be.</p>",
+    "grants": "Step Between: reaction-based teleporting step through obstacles up to normal move distance."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Move through the spaces where the world forgot to be solid",
+        "color": "#6a3d8f",
+        "tags": { "Class": "Monk", "Focus": "Mobility" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

@@ -1,0 +1,29 @@
+{
+  "_id": "VRSpecGoblin0001",
+  "name": "Goblin",
+  "type": "species",
+  "img": "modules/charwizard-veilrunner/art/species/goblin.webp",
+  "system": {
+    "description": "<p>Goblins are small, sharp, and chronically underestimated by everyone who has not yet been robbed by one. They emerged from the Veil event in the same cascade that produced orks and trolls, but where their bigger cousins got mass, goblins got reflexes and a working knowledge of every air duct in the sprawl. Their hands are small enough to disarm a smart-mine without setting it off, and their reaction times are quick enough to be banned from three categories of professional racing.</p><p>In the shadows they are wheelmen, decoys, lockpicks, and the kind of fixers who answer the phone at 3 a.m. because they are already awake. Goblin street culture is fast, loud, and aggressively communal — a goblin without a crew is a goblin between crews, and the gap is rarely long. They laugh at things humans find horrifying, mostly because they have already survived worse, and they remember every favor with bookkeeping precision. Owe one a debt and you will pay it; do one a kindness and you have a friend for life, which in the sprawl is the rarer currency.</p>",
+    "attrBonus": 0,
+    "bonusSkills": 1,
+    "size": "small",
+    "speed": 6,
+    "traits": []
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Quick hands, quicker minds, fastest getaway drivers alive",
+        "color": "#4a8a2a",
+        "tags": {
+          "Size": "Small",
+          "Speed": "6m",
+          "Bonus": "+2 DEX, +1 LOG"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsDemolit0001",
+  "name": "Demolitionist",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/demolitionist.webp",
+  "system": {
+    "description": "<p>Demolitionists are the runners who do their thinking with shaped charges. They came up in combat engineering units, mining operations, or as the rare protege of an old hand who taught them that the loud part of the job is the part that matters least. They are mathematicians with strong fingers and a calm voice. They have a healthy fear of their materials, and that fear is exactly what keeps the team alive.</p><p>On the job, the Demolitionist precomputes the engagement. They know which wall comes down, which staircase folds, which vehicle ceases to be a vehicle. They favor surgical detonations over spectacle, and they hate amateurs the way surgeons hate hobbyists. Give them the blueprint and an hour and they will redesign the building's last twenty seconds.</p>",
+    "archetype": "VRArchTechnic001",
+    "bonusSkills": 0,
+    "grants": "Explosive crafting, structural-failure expertise, area denial via demolitions."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Precision demolitions expert who reshapes terrain with shaped charges",
+        "color": "#2d6e4e",
+        "tags": { "Archetype": "Technical", "Role": "Explosives" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

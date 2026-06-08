@@ -1,0 +1,26 @@
+{
+  "_id": "VRBgPhysician001",
+  "name": "Physician",
+  "type": "background",
+  "img": "modules/charwizard-veilrunner/art/backgrounds/acolyte.webp",
+  "system": {
+    "description": "<p>You trained in medicine back when that still meant something. A corp-sponsored residency in a gleaming arcology clinic, a charity rotation in a sublevel that the official maps no longer included, a battlefield hospital on a contract you do not talk about — wherever it happened, you came out the other side knowing how a body fails and how to argue with it. You think in <em>systems</em>: cardiovascular, endocrine, neural, immune. When one crashes, you know which inputs reboot it and which ones make the cascade worse.</p><p>You also know how the health-care economy actually functions, which is why you do not work inside it anymore. You saw the patients triaged by credit rating. You saw the experimental treatments billed to people who never consented. You walked away with a license that is real, mostly, and a network of nurses, pharmacists, paramedics, and back-room ripperdocs who will still pick up a secure line. The runners need someone who can stitch them back together when the job goes sideways, prescribe what the corps refuse to, and tell them when one of their crew is lying about how bad the wound really is. You can do all three before the bleeding stops.</p>",
+    "bonusSkills": 1,
+    "grants": "Field medical kit (sutures, stims, trauma patches), prescription pad or pharma access codes, white coat or scrubs. Contact: a network of nurses, pharmacists, paramedics, or ripperdocs who will treat, supply, or consult discreetly."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "The body is a system — you learned how to reboot it",
+        "color": "#1a6a4a",
+        "tags": {
+          "Skills": "+1 bonus skill",
+          "Contacts": "Medical network",
+          "Equipment": "Medical kit, prescription access, scrubs"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

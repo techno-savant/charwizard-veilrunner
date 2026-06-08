@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillPilotAr10",
+  "name": "Piloting (Aerial)",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Piloting (Aerial) covers anything that leaves the ground: tiltrotors, ducted-fan drones, hover transports, light fixed-wing. Three axes of freedom, weather, fuel, lift, and one mistake — pilots learn to count their breaths because every one of them is bought.</p>",
+    "group": "Technical",
+    "usesattribute": "reaction",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Three axes of freedom; one mistake",
+        "color": "#1a5a2a",
+        "tags": {
+          "Group": "Technical",
+          "Attribute": "Reaction",
+          "Roll": "1d20 + REA + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

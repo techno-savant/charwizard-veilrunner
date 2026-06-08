@@ -1,0 +1,21 @@
+{
+  "_id": "VRArchTechnic001",
+  "name": "Technical",
+  "type": "archetype",
+  "img": "modules/charwizard-veilrunner/art/archetypes/technical.webp",
+  "system": {
+    "description": "<p>Technicals are the runners who read the spec sheet before they read the room. They came up in clean rooms, garage labs, and pirate fabs strung together with stolen patents and worse coffee. Where the Armament trusts the gun and the Intrinsic trusts the body, the Technical trusts the system, the substrate, the chain of effects they have spent years modeling. Give them an afternoon and a workbench and they will turn a kitchen, a pharmacy, or a parking garage into a kill zone.</p><p>On the job, the Technical is the one who arrives carrying a duffel bag of small, unremarkable objects and walks out leaving a precise amount of damage exactly where it was needed. They view chemistry, demolition, and remote platforms as different dialects of the same language: cause and effect, scaled and aimed. They are patient until the moment they are not, and that moment is usually loud.</p>",
+    "archetype": ""
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Operatives who turn technology and chemistry into weapons",
+        "color": "#2d6e4e",
+        "tags": { "Role": "Technical" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

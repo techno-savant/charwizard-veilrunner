@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillWeapTec10",
+  "name": "Weapons Tech",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Weapons Tech is the practical knowledge of arms: cycling actions, sighting systems, ammunition chemistry, smart-link integration, the failure modes of every platform that's ever been pointed at a person. You know what makes them tick — and what makes them stop.</p>",
+    "group": "Technical",
+    "usesattribute": "logic",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "You know what makes them tick — and stop",
+        "color": "#1a5a2a",
+        "tags": {
+          "Group": "Technical",
+          "Attribute": "Logic",
+          "Roll": "1d20 + LOG + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

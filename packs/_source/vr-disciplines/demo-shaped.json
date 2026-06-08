@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscDemoShap01",
+  "name": "Shaped Charge",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/demo-shaped.webp",
+  "system": {
+    "parentClass": "VRClsDemolit0001",
+    "description": "<p>Shaped Charge is the Demolitionist discipline for runners who chose precision over yield. Practitioners study explosive geometry like a sculptor studies negative space: the goal is not the explosion but the exact, predictable hole that follows it. They came up in military combat engineering, vault-breach crews, or apprenticeships with old hands who never raised their voice.</p><p>On the job, the Shaped Charge Demolitionist breaches without collateral. Their entry feature is Surgical Breach: they may declare a Shaped Charge against a structural element or armored door, treating its resistance as halved and producing a clean opening with minimal incidental damage to anything outside a one-meter cone.</p>",
+    "grants": "Surgical Breach: half resistance on structures/doors; collateral confined to a one-meter cone."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Open the door without ending the room",
+        "color": "#2d6e4e",
+        "tags": { "Class": "Demolitionist", "Focus": "Precision Breach" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

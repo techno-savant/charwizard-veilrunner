@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscVangLast01",
+  "name": "Last Stand",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/vanguard-last.webp",
+  "system": {
+    "parentClass": "VRClsVanguard001",
+    "description": "<p>Last Stand is what the doctrine becomes when the doctrine has run out. It is the discipline of the Vanguard who has accepted that some days the extraction will not arrive in time. Practitioners train in attrition scenarios that more polite institutions refuse to run: outnumbered, outgunned, with the only victory condition being to still be on your feet when the team makes the rendezvous.</p><p>On the job, the Last Stand Vanguard becomes more dangerous as the situation deteriorates. Their entry feature is Defiance: while at or below half health, they gain damage resistance and a bonus to attack rolls, and any attempt to forcibly move them costs the attacker a turn. Survivors describe a strange calm in their eyes.</p>",
+    "grants": "Defiance: at half HP or lower, gain damage resistance, attack bonus, and immunity to forced movement."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Get stronger the closer the line gets to breaking",
+        "color": "#6a3d8f",
+        "tags": { "Class": "Vanguard", "Focus": "Endurance" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

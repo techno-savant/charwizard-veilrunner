@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillPerceiv10",
+  "name": "Perception",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Perception is awareness sharpened into a tool: spotting the muzzle of a rifle in a third-floor window, hearing the safety click before the shot, catching the smell of solvent that says someone just wiped a scene. Runners who survive learn to notice what is missing as quickly as what is present.</p>",
+    "group": "Physical",
+    "usesattribute": "wisdom",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Nothing gets past eyes that know what to look for",
+        "color": "#5a3a1a",
+        "tags": {
+          "Group": "Physical",
+          "Attribute": "Wisdom",
+          "Roll": "1d20 + WIS + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscFTechOvr01",
+  "name": "Tactical Overwatch",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/fieldtech-overwatch.webp",
+  "system": {
+    "parentClass": "VRClsFieldTech01",
+    "description": "<p>Tactical Overwatch is the Field Technician discipline for runners who decided that the real fight happens before anyone pulls a trigger. They specialize in environmental control: sensor packages, deployable cover modules, automated turrets, and the soft tools that turn an empty intersection into a managed killbox. Most of them came up adjacent to private security architecture teams and have strong opinions about line of sight.</p><p>On the job, the Tactical Overwatch operator is everywhere the team is not yet. Their entry feature is Forward Position: at the start of any encounter, they may deploy a chosen utility package (sensor mast, cover module, or automated suppressor turret) into an adjacent square as a free action.</p>",
+    "grants": "Forward Position: deploy one chosen utility package (sensor, cover, or turret) for free at encounter start."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Build the killbox before the enemy realizes they have entered one",
+        "color": "#8b3a2a",
+        "tags": { "Class": "Field Technician", "Focus": "Battlefield Control" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

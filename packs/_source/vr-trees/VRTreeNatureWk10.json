@@ -1,0 +1,31 @@
+{
+  "_id": "VRTreeNatureWk10",
+  "name": "Nature Wake",
+  "type": "feature",
+  "img": "modules/charwizard-veilrunner/art/icons/tree-default.webp",
+  "system": {
+    "description": "<p>The Druidic Circle teaches that the living world is a network of small voices, most of them ignored. You learn to listen. Birds, rats, feral dogs, the things growing in cracked concrete — they all know things, and they all talk if asked correctly.</p>",
+    "treeType": "spell",
+    "treeName": "Druidic Circle Tree",
+    "archetype": "VRArchMagical001",
+    "tier": 1,
+    "effect": "Speak with animals and sense natural disturbances within 60 meters."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Every living thing has something to say",
+        "color": "#1a5c8a",
+        "tags": {
+          "Tree": "Druidic Circle Tree",
+          "Tier": "1",
+          "Type": "spell"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

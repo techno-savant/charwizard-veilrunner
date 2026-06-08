@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsBerserker01",
+  "name": "Berserker",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/berserker.webp",
+  "system": {
+    "description": "<p>Berserkers are the runners who learned, somewhere along the line, that pain is just information. They cultivate an inner storm and call on it when the moment turns red. Some came up in the cage circuits, some in border conflicts the news refused to cover, some in households where rage was the only language anyone spoke. They have made friends with the part of themselves that the rest of the world finds difficult to look at.</p><p>In the field, the Berserker is the loud answer to a quiet problem. They close the distance, absorb the punishment, and keep moving while the rest of the team reloads. Their power is not magic and not technology. It is a learned trick of the nervous system, a switch they have practiced flipping until the cost is something they can budget for.</p>",
+    "archetype": "VRArchIntrinsic1",
+    "bonusSkills": 0,
+    "grants": "Rage state mechanic, heavy melee proficiency, damage resistance while raging."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Channel raw fury into devastating melee dominance",
+        "color": "#6a3d8f",
+        "tags": { "Archetype": "Intrinsic", "Role": "Melee" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

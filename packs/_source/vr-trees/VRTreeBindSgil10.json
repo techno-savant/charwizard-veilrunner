@@ -1,0 +1,31 @@
+{
+  "_id": "VRTreeBindSgil10",
+  "name": "Binding Sigil",
+  "type": "feature",
+  "img": "modules/charwizard-veilrunner/art/icons/tree-default.webp",
+  "system": {
+    "description": "<p>The Conjurer's earliest tool is the chalked, traced, or whispered sigil — a tether laid across the Veil that grips whatever crosses it. The hold is brief, but a single round is sometimes the only window you need.</p>",
+    "treeType": "spell",
+    "treeName": "Conjurer Tree",
+    "archetype": "VRArchMagical001",
+    "tier": 1,
+    "effect": "Place a sigil that holds one creature in place for 1 round."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "A tether across the Veil",
+        "color": "#1a5c8a",
+        "tags": {
+          "Tree": "Conjurer Tree",
+          "Tier": "1",
+          "Type": "spell"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

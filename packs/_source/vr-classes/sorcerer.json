@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsSorcerer001",
+  "name": "Sorcerer",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/sorcerer.webp",
+  "system": {
+    "description": "<p>Sorcerers are the runners who never quite stopped bleeding from the moment the Veil first touched them. The power lives in the body, not the book. They did not earn it and they cannot give it back, and most of them have made an uneasy peace with that arithmetic. They burn matter, memory, and time to put effects into the world, and the world does not care whether they think the trade was fair.</p><p>On the job, a Sorcerer is a vector of destructive intent. They turn doorways into incinerators, vehicles into expanding clouds of carbon, and ambushers into cautionary tales. They tend to keep their kit minimal, because the kit is themselves. The cost of overuse is written on their nervous system, and you can read it if you know how to look.</p>",
+    "archetype": "VRArchMagical001",
+    "bonusSkills": 0,
+    "grants": "Innate destructive spellcasting, channeled overload, Veil-burn resource pool."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Innate spellcaster channeling raw destructive power from the Veil",
+        "color": "#1a5c8a",
+        "tags": { "Archetype": "Magical", "Role": "Destruction" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

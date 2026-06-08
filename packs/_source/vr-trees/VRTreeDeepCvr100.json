@@ -1,0 +1,31 @@
+{
+  "_id": "VRTreeDeepCvr100",
+  "name": "Deep Cover",
+  "type": "feature",
+  "img": "modules/charwizard-veilrunner/art/icons/tree-default.webp",
+  "system": {
+    "description": "<p>A second identity is not a wig and a bad accent — it's history, paper, a credit footprint, a regular barista. You maintain one in parallel to your real life, and pulling it apart is not a casual exercise even for authorities who know to look.</p>",
+    "treeType": "social",
+    "treeName": "Identity Tree",
+    "archetype": "VRArchSocial0001",
+    "tier": 1,
+    "effect": "Maintain a second identity. Authorities need a Hard check (DC 16) to pierce it."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "History, paper, and a regular barista",
+        "color": "#7a5c2a",
+        "tags": {
+          "Tree": "Identity Tree",
+          "Tier": "1",
+          "Type": "social"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

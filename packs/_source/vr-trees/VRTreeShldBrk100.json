@@ -1,0 +1,31 @@
+{
+  "_id": "VRTreeShldBrk100",
+  "name": "Shield Breaker",
+  "type": "feature",
+  "img": "modules/charwizard-veilrunner/art/icons/tree-default.webp",
+  "system": {
+    "description": "<p>Suppression isn't about hitting; it's about denying ground. You learn to walk fire across an objective in a pattern that strips overhangs, splinters barricades, and forces enemies into worse positions than the ones they started in.</p>",
+    "treeType": "combat",
+    "treeName": "Suppressor Tree",
+    "archetype": "VRArchArmament01",
+    "tier": 1,
+    "effect": "Your area attacks reduce enemy cover by one tier."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Suppression is geography weaponized",
+        "color": "#8b3a2a",
+        "tags": {
+          "Tree": "Suppressor Tree",
+          "Tier": "1",
+          "Type": "combat"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

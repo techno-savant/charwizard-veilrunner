@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscDrudWild01",
+  "name": "Voice of the Wild",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/druid-wild.webp",
+  "system": {
+    "parentClass": "VRClsDruid000001",
+    "description": "<p>Voice of the Wild is the Druid discipline for runners who learned to speak with what the corps called pests. They negotiate with the feral dog packs of the lower sprawl, the crow colonies that nest in fallen towers, the rats that have evolved past the poisons. Their relationship with these creatures is not ownership; it is alliance, the slow accumulation of favors and shared meals.</p><p>On the job, the Voice of the Wild Druid is rarely alone. Their entry feature is Familiar Pack: they begin each session with a bonded animal companion of small or medium size, and may rally additional local fauna to a single coordinated action once per scene.</p>",
+    "grants": "Familiar Pack: persistent bonded animal companion; rally local fauna once per scene."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Let the city's forgotten things remember your name",
+        "color": "#1a5c8a",
+        "tags": { "Class": "Druid", "Focus": "Beasts" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

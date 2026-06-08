@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscConjServ01",
+  "name": "Bound Servitor",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/conjurer-servitor.webp",
+  "system": {
+    "parentClass": "VRClsConjurer001",
+    "description": "<p>Bound Servitor is the Conjurer discipline for runners who chose depth over breadth. Instead of cycling through summoned entities, they cultivate a relationship with a single bound thing across years, refining the contract, learning its preferences, accepting its quiet judgment. The bond is something between possession, partnership, and an open negotiation that never quite resolves.</p><p>On the job, the Bound Servitor Conjurer never quite shows up alone. Their entry feature is Constant Bond: their bound entity travels with them in a quiescent state and may be manifested as a free action at the start of any encounter, retaining levels of capability and memory between sessions.</p>",
+    "grants": "Constant Bond: persistent bound entity manifests free at encounter start; advances with the Conjurer."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Walk with the thing that has agreed to walk with you",
+        "color": "#1a5c8a",
+        "tags": { "Class": "Conjurer", "Focus": "Companion" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

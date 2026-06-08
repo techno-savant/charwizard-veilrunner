@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillFabrica10",
+  "name": "Fabrication",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Fabrication is the runner's craft of making and remaking: jury-rigged repairs, printed parts, salvage cannibalized into something it was never meant to be. Make do, make new, make it work — preferably before the next gunfight.</p>",
+    "group": "Technical",
+    "usesattribute": "logic",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Make do, make new, make it work",
+        "color": "#1a5a2a",
+        "tags": {
+          "Group": "Technical",
+          "Attribute": "Logic",
+          "Roll": "1d20 + LOG + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

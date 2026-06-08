@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillAthleti10",
+  "name": "Athletics",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Athletics covers feats of raw physical power: climbing sheer walls, sprinting across rooftops, swimming against currents, hauling unconscious teammates out of fire, and pushing the body beyond what it should endure. In a world that wants to grind runners into dust, your body answers back.</p>",
+    "group": "Physical",
+    "usesattribute": "strength",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Climb, sprint, and survive the physical world",
+        "color": "#5a3a1a",
+        "tags": {
+          "Group": "Physical",
+          "Attribute": "Strength",
+          "Roll": "1d20 + STR + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscInflMark01",
+  "name": "Market Maker",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/infl-market.webp",
+  "system": {
+    "parentClass": "VRClsInfluenc001",
+    "description": "<p>Market Maker is the Influencer discipline for runners who treat attention as a monetary instrument. Practitioners do not lead movements so much as price them. They came up in lifestyle commerce, brand consultancy, and the secondary markets where attention metrics are traded as a commodity. They know exactly how much a single endorsement moves the needle and exactly which needles matter on a given week.</p><p>On the job, the Market Maker Influencer is the runner who bends commercial reality. Their entry feature is Trend Trade: once per session the Influencer may declare a brand, product, or location as suddenly important to their audience, generating tangible local effects: crowds, supply scarcity, hostile attention, or a needed distraction at the venue of choice.</p>",
+    "grants": "Trend Trade: once per session, drive a target brand/product/location into sudden relevance with tangible effects."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Turn attention into leverage and leverage into outcomes",
+        "color": "#7a5c2a",
+        "tags": { "Class": "Influencer", "Focus": "Commerce" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

@@ -1,0 +1,25 @@
+{
+  "_id": "VROrigLuna000001",
+  "name": "Luna",
+  "type": "origin",
+  "img": "modules/charwizard-veilrunner/art/origins/luna.webp",
+  "system": {
+    "description": "<p>Luna was supposed to be a research outpost. Then it was a mining concession. Then it was a tax haven, a launch platform, a refugee camp, and finally, somewhere between the third corporate war and the second Veil cascade, a place that began calling itself home. The colony stretches under regolith in long pressurized arcs, lit by sun-piped fiber by day and the cold blue glow of grow-lamps by night. Gravity is a sixth of what your bones expect, the air tastes faintly of recycler enzymes, and the horizon is close enough to walk to in an afternoon if your suit holds.</p><p>To be from Luna is to be from a place that has never once been able to take its own atmosphere for granted. Lunars are practical to the point of bluntness, comfortable with vacuum protocols the way Earthers are comfortable with traffic, and quietly contemptuous of anyone who treats life support as somebody else's job. The colony's culture is younger than its oldest residents, which means it is still being argued into existence — every Lunar character has been part of that argument, whether they noticed or not. They tend to look at Earth's tangled politics with the impatience of a frontier that has solved easier versions of the same problems by simply refusing to have them.</p>",
+    "bonusSkills": 1,
+    "grants": "Luna Origin grants 1 bonus skill, vacuum and low-gravity training, and familiarity with Luna Colony's frontier culture, infrastructure, and offworld logistics networks."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "The colony that learned to breathe vacuum and think in vacuum",
+        "color": "#8a8a9a",
+        "tags": {
+          "Location": "Luna Colony",
+          "Influence": "Frontier"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

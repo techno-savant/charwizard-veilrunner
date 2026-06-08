@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscStrkShck01",
+  "name": "Shock Assault",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/striker-shock.webp",
+  "system": {
+    "parentClass": "VRClsStriker0001",
+    "description": "<p>Shock Assault is the Striker discipline that codified the breach. Its practitioners drilled with flashbang teams, dynamic entry units, and the kind of corporate raid crews that hit a building like weather. They have a fluent relationship with disorientation: how to inflict it on the room and how to keep moving through it themselves.</p><p>On the job, the Shock Assault Striker is the runner who comes through the breach first. Their entry feature is First Through: the round in which they enter a room or breach a door, they gain bonus movement, attack rolls against unprepared targets benefit from advantage, and they are immune to the disorienting effects of their own team's stuns.</p>",
+    "grants": "First Through: bonus movement and advantage in breached rooms; immunity to friendly stun effects."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Hit the door first and never quite stop moving",
+        "color": "#8b3a2a",
+        "tags": { "Class": "Striker", "Focus": "Breach" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

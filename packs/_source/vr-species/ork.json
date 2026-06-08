@@ -1,0 +1,29 @@
+{
+  "_id": "VRSpecOrk0000001",
+  "name": "Ork",
+  "type": "species",
+  "img": "modules/charwizard-veilrunner/art/species/ork.webp",
+  "system": {
+    "description": "<p>Orks are big, blunt, and built like the world owes them an apology. They mature fast, hit harder, and have a kind of cellular durability that makes the gene boutiques weep with envy — an ork can walk away from injuries that would kill three humans and a vending machine. That toughness is paired with a short metabolic clock; ork lives burn bright and end early, and ork culture has organized itself around that fact with an honesty most of the other metatypes can't match.</p><p>The sprawl is full of orks because the sprawl is where the work is, and the work is usually the kind that needs someone willing to take a hit. They run security, demolition, heavy rigging, frontline shadow ops — anywhere a strong back and a stronger jaw matter more than a polished resume. Outsiders mistake their bluntness for stupidity, which is convenient, because an ork with a good poker face and a grudge is exactly the kind of problem the corps never see coming.</p>",
+    "attrBonus": 0,
+    "bonusSkills": 0,
+    "size": "large",
+    "speed": 6,
+    "traits": []
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Built for a world that hits back",
+        "color": "#7a3a1a",
+        "tags": {
+          "Size": "Large",
+          "Speed": "6m",
+          "Bonus": "+2 STR, +1 BOD"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

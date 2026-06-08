@@ -1,0 +1,26 @@
+{
+  "_id": "VRBgCorrectn0001",
+  "name": "Corrections Officer",
+  "type": "background",
+  "img": "modules/charwizard-veilrunner/art/backgrounds/acolyte.webp",
+  "system": {
+    "description": "<p>You worked inside the walls — a corp-run remand facility, an off-world penal hab, a privatized arcology lockup where the algorithms decided sentences and the humans handled the rest. The job taught you which rules the system actually cared about and which it printed for the press releases. You learned the choreography of a cellblock, the tells of a coming riot, the small mercies that bought loyalty and the small cruelties that bought silence. You also learned, slowly, which of the inmates were guilty of anything <em>other</em> than being inconvenient.</p><p>Something broke that loop for you. A prisoner you should not have liked. A directive you could not carry out. A guard captain who went too far and got promoted for it. You walked out — or were walked out — but you kept the contacts: union reps, parole officers, ex-cons who remembered you treated them like people, and the handful of officers who still answer when you call. The runners value the badge you used to carry and the men and women on both sides of the bars who still owe you. You know <b>exactly</b> how the cages work, which makes you very good at staying out of them.</p>",
+    "bonusSkills": 0,
+    "grants": "Surplus baton or shock-stick, durable uniform jacket, ID that still scans in some systems. Contact: a former colleague in law enforcement or corrections who will trade information, look the other way, or vouch for you."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "You learned which rules matter by enforcing the wrong ones",
+        "color": "#4a4a4a",
+        "tags": {
+          "Skills": "+0 bonus skills",
+          "Contacts": "Law enforcement",
+          "Equipment": "Baton, uniform jacket, partial-access ID"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

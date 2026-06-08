@@ -1,0 +1,26 @@
+{
+  "_id": "VRBgMechanic0001",
+  "name": "Mechanic",
+  "type": "background",
+  "img": "modules/charwizard-veilrunner/art/backgrounds/acolyte.webp",
+  "system": {
+    "description": "<p>You came up greasy. Maybe in a dockyard shop welding hull plates onto cargo skiffs, maybe in a back-alley chop garage swapping VINs and serials on stolen ground cars, maybe in a corp motor pool where the supervisor's bonus depended on how many corners you cut. You learned that everything with a power cell and a logic board has a way in — a service port, a debug pin, a firmware quirk the manufacturer pretended to patch. <em>Everything</em>. The corps print the manuals; mechanics like you write the addenda in pencil and pass them around.</p><p>The work put you in rooms with the kind of people who needed things <b>fixed</b> in ways the warranty did not cover. Smugglers who needed a transponder spoofed. Strikers who needed a cargo lift jammed. Couriers who needed a bike that could outrun a corp drone for forty seconds — which is all the time anyone has ever actually needed. You know the tech underground: the parts dealers, the firmware crackers, the shop owners who will buy a question and sell an answer. The runners need someone who can keep their gear alive and turn the enemy's gear against them. That is the job description you were born for.</p>",
+    "bonusSkills": 0,
+    "grants": "Multi-tool kit and diagnostic deck, a coverall with a thousand pockets, a duffel of salvaged parts. Contact: a chop shop, parts dealer, or firmware cracker in the tech underground who will source, repair, or sabotage on request."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "If it runs on power and code, you can fix it or break it",
+        "color": "#5a4a1a",
+        "tags": {
+          "Skills": "+0 bonus skills",
+          "Contacts": "Tech underground",
+          "Equipment": "Tool kit, diagnostic deck, salvaged parts"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

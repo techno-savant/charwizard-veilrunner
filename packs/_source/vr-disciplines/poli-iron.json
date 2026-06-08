@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscPoliIron01",
+  "name": "Iron Mandate",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/poli-iron.webp",
+  "system": {
+    "parentClass": "VRClsPolitici001",
+    "description": "<p>Iron Mandate is the Politician discipline for runners who hold real, formal authority and have decided to use it openly. Practitioners are elected officials, appointed magistrates, district administrators, or chartered corporate officers with explicit, on-paper jurisdiction. Their power is visible, signed, and stamped. They have learned to wield it without flinching.</p><p>On the job, the Iron Mandate Politician is the runner who can simply order things to happen. Their entry feature is Writ of Office: once per session the Politician may invoke their formal authority to legitimately compel a subordinate institution (local enforcement, municipal services, a chartered subordinate office) to take or refrain from a specific action.</p>",
+    "grants": "Writ of Office: once per session, formally compel a subordinate institution to act or refrain."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Sign the paper. Move the machinery. Walk out clean",
+        "color": "#7a5c2a",
+        "tags": { "Class": "Politician", "Focus": "Authority" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

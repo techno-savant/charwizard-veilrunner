@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillVeilSns10",
+  "name": "Veil Sense",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Veil Sense is the trained perception of the unseen layer that interpenetrates the world. Currents, bindings, residue from recent castings, the faint pressure of something watching from outside the visible spectrum. Eyes don't see it; you do.</p>",
+    "group": "Magical",
+    "usesattribute": "resonance",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Feel the currents that blind eyes cannot see",
+        "color": "#1a2a7a",
+        "tags": {
+          "Group": "Magical",
+          "Attribute": "Resonance",
+          "Roll": "1d20 + RES + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

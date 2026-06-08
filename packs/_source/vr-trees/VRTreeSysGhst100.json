@@ -1,0 +1,31 @@
+{
+  "_id": "VRTreeSysGhst100",
+  "name": "System Ghost",
+  "type": "feature",
+  "img": "modules/charwizard-veilrunner/art/icons/tree-default.webp",
+  "system": {
+    "description": "<p>The cleanest exploit is the one nobody ever knows happened. You learn to write yourself out of audit logs in the same motion you write yourself in — every success simply does not appear.</p>",
+    "treeType": "hacking",
+    "treeName": "Hacking Tree",
+    "archetype": "VRArchTechnic001",
+    "tier": 1,
+    "effect": "Passive: your intrusion attempts leave no log entry on a success."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "The cleanest exploit leaves no trace",
+        "color": "#2d6e4e",
+        "tags": {
+          "Tree": "Hacking Tree",
+          "Tier": "1",
+          "Type": "hacking"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

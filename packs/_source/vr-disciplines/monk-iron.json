@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscMonkIron01",
+  "name": "Way of the Iron Fist",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/monk-iron.webp",
+  "system": {
+    "parentClass": "VRClsMonk0000001",
+    "description": "<p>The Iron Fist tradition is the oldest documented Monk lineage to survive the Veil intact. Its practitioners drill the body until the bones, tendons, and reflexes are no longer ordinary tissue. They train against pillars wrapped in rope, against weighted dummies, against each other, year after year, until a strike from an Iron Fist Monk is essentially an industrial event.</p><p>On the job, Iron Fist Monks step into close range and end fights one knuckle at a time. Their entry feature is Hardened Strike: their unarmed attacks count as armed for the purpose of overcoming damage resistance, and they treat their own hands as concealed weapons that no scanner ever notices.</p>",
+    "grants": "Hardened Strike: unarmed attacks bypass resistance as if armed; concealed-weapon hand strikes."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Forge the body into a weapon no scanner can detect",
+        "color": "#6a3d8f",
+        "tags": { "Class": "Monk", "Focus": "Striking" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

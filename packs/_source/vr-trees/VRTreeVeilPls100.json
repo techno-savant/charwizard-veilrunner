@@ -1,0 +1,31 @@
+{
+  "_id": "VRTreeVeilPls100",
+  "name": "Veil Pulse",
+  "type": "feature",
+  "img": "modules/charwizard-veilrunner/art/icons/tree-default.webp",
+  "system": {
+    "description": "<p>The first cast every Surge initiate learns: a focused fist of Veil pressure, projected forward. Not elegant, not subtle — but reliable, and reliable is what keeps you alive in your first year.</p>",
+    "treeType": "spell",
+    "treeName": "Veil Surge Tree",
+    "archetype": "VRArchMagical001",
+    "tier": 1,
+    "effect": "Cast a ranged force pulse: 1d6 damage and push 2 meters, once per turn."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Not elegant, but reliable",
+        "color": "#1a5c8a",
+        "tags": {
+          "Tree": "Veil Surge Tree",
+          "Tier": "1",
+          "Type": "spell"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

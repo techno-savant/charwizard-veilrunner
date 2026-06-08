@@ -1,0 +1,29 @@
+{
+  "_id": "VRSpecElf0000001",
+  "name": "Elf",
+  "type": "species",
+  "img": "modules/charwizard-veilrunner/art/species/elf.webp",
+  "system": {
+    "description": "<p>Elves walked out of the Veil's first awakening already poised, as if they had been waiting somewhere offstage for the world to catch up. Tall, long-lived, and unsettlingly precise, they dominate the upper floors of the megacorp arcologies and the back rooms of the sprawl's most exclusive clubs in roughly equal measure. Their senses are tuned a half-step sharper than human baseline — they read micro-expressions like billboards and hear the hum of a hidden camera through three layers of drywall. The downside of that perception is that elves rarely get to be surprised by anything, including their own mistakes.</p><p>Centuries of life encourage long games. An elf doesn't burn a bridge; she catalogs it, prices it, and sells it back to the people who built it. In the shadow scene they are over-represented as faces, infiltrators, and riggers — anywhere the job rewards patience and a soft voice. The streets call them stuck-up. The streets are usually right. But when an elf finally moves, she moves like she's been rehearsing for forty years, because she has been.</p>",
+    "attrBonus": 0,
+    "bonusSkills": 1,
+    "size": "medium",
+    "speed": 7,
+    "traits": []
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Grace and perception honed over centuries",
+        "color": "#3a7a4a",
+        "tags": {
+          "Size": "Medium",
+          "Speed": "7m",
+          "Bonus": "+2 AGI, +1 WIS"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

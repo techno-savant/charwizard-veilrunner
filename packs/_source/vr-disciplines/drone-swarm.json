@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscDronSwar01",
+  "name": "Swarm Protocol",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/drone-swarm.webp",
+  "system": {
+    "parentClass": "VRClsDroneCom001",
+    "description": "<p>Swarm Protocol is the Drone Commander discipline for runners who decided that the future of small machines was numbers. Practitioners specialize in micro-drones operating under shared behavioral firmware: dozens of small flying or crawling units acting as one coordinated entity. The individual drones are cheap and disposable; the firmware that binds them is anything but.</p><p>On the job, the Swarm Protocol commander is the runner trailed by a soft, mechanical cloud. Their entry feature is Disperse and Reform: the swarm may scout, harass, and obscure as a single creature occupying up to a medium area; once per encounter it may move through obstacles as if intangible and reform on the far side.</p>",
+    "grants": "Disperse and Reform: micro-drone swarm acts as a single unit; once per encounter passes intangibly through obstacles."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Run the cloud. Let the cloud do the work",
+        "color": "#2d6e4e",
+        "tags": { "Class": "Drone Commander", "Focus": "Swarm" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

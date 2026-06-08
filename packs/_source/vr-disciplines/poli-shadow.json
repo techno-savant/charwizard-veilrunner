@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscPoliShdw01",
+  "name": "Shadow Consensus",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/poli-shadow.webp",
+  "system": {
+    "parentClass": "VRClsPolitici001",
+    "description": "<p>Shadow Consensus is the Politician discipline for runners who decided that the real decisions are made before the meeting begins. Practitioners are caucus organizers, backroom whip operators, and the kind of district lieutenant whose phone is on a list nobody else gets to see. They do not need a title; the title would only get in the way.</p><p>On the job, the Shadow Consensus Politician is the runner who quietly arranges the room. Their entry feature is Whip Vote: once per session the Politician may resolve a contested institutional decision in the team's favor by activating off-the-record commitments from allied officials, provided the decision is within the scope of a body the Politician has standing with.</p>",
+    "grants": "Whip Vote: once per session, swing a contested institutional decision via off-the-record allies."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Settle the vote in the hallway, before anyone sits down",
+        "color": "#7a5c2a",
+        "tags": { "Class": "Politician", "Focus": "Backchannel" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

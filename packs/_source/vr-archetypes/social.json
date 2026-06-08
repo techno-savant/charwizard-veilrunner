@@ -1,0 +1,21 @@
+{
+  "_id": "VRArchSocial0001",
+  "name": "Social",
+  "type": "archetype",
+  "img": "modules/charwizard-veilrunner/art/archetypes/social.webp",
+  "system": {
+    "description": "<p>Social runners understand a truth the rest of the crew sometimes forgets: every door, vault, and weapons platform in the sprawl is ultimately operated by a person, and people can be read, moved, and rewritten. They work in the soft tissue of the corporate world, the warm spaces between policy and practice. A Social operative will never be the one who kicks the door in, because by the time the team arrives the door is already open, the guard is on a coffee break, and the executive who signed the access slip will deny it to her grave.</p><p>They trade in identities the way Armaments trade in calibers. A Social runner may keep a dozen working aliases active across as many subcultures, each with its own credit history, social graph, and verifiable backstory. They are journalists, influencers, fixers, politicians, and ghosts, often in the same week. They look harmless. They are not.</p>",
+    "archetype": ""
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Operators who win through information, influence, and identity",
+        "color": "#7a5c2a",
+        "tags": { "Role": "Social" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

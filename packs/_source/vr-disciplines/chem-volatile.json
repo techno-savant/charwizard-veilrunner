@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscChemVola01",
+  "name": "Volatile Brewer",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/chem-volatile.webp",
+  "system": {
+    "parentClass": "VRClsChemSpec001",
+    "description": "<p>Volatile Brewer is the Chemical Specialist discipline for runners who decided the most interesting molecules were the unstable ones. Practitioners specialize in compounds that want to be elsewhere: thrown incendiary gels, contact reagents, vapor-dispersal grenades hand-mixed the morning of the job. They have a healthy respect for their workbench and a great many small scars.</p><p>On the job, the Volatile Brewer is the runner whose pockets keep producing new and increasingly aggressive solutions. Their entry feature is Field Mix: at the start of any session they may declare a small batch of thrown ordnance (incendiary, acid, or vapor cloud) and gain a number of charges equal to half their level, used as thrown attacks.</p>",
+    "grants": "Field Mix: declare a thrown ordnance type per session; charges equal to half level."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Bring a different bad day in every pocket",
+        "color": "#2d6e4e",
+        "tags": { "Class": "Chemical Specialist", "Focus": "Ordnance" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

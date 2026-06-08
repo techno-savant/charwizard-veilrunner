@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscStrkBlad01",
+  "name": "Blade Rush",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/striker-blade.webp",
+  "system": {
+    "parentClass": "VRClsStriker0001",
+    "description": "<p>Blade Rush is the Striker discipline for the runners who never wanted to be in the breach team. They wanted to be the runner who came in afterward, with a short, brutal weapon, while the team was still busy with their primary loadout. Practitioners pair a folding blade or close-combat tool with a sidearm and a refined sense of when to swap between the two.</p><p>On the job, the Blade Rush Striker is the close-quarters answer to overlapping firing arcs. Their entry feature is Sidearm Pivot: in any round they hit with a melee attack, they may make an additional sidearm attack at no penalty against a different target within short range.</p>",
+    "grants": "Sidearm Pivot: melee hits trigger a no-penalty sidearm attack against a different short-range target."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Run the blade, the pistol, and the gap in between",
+        "color": "#8b3a2a",
+        "tags": { "Class": "Striker", "Focus": "Close Combat" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

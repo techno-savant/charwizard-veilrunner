@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillEncrypt10",
+  "name": "Encryption",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Encryption is the defender's craft to Hacking's attack: key management, channel hardening, traffic obfuscation, secure tradecraft. Your comms stay yours, your location stays unwritten, and the corp listening at the other end gets a wall of noise.</p>",
+    "group": "Digital",
+    "usesattribute": "logic",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Your comms stay yours",
+        "color": "#1a4a6a",
+        "tags": {
+          "Group": "Digital",
+          "Attribute": "Logic",
+          "Roll": "1d20 + LOG + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

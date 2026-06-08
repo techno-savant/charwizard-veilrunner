@@ -1,0 +1,31 @@
+{
+  "_id": "VRTreeKiFlow0100",
+  "name": "Flow State",
+  "type": "feature",
+  "img": "modules/charwizard-veilrunner/art/icons/tree-default.webp",
+  "system": {
+    "description": "<p>The Void Path teaches that combat is not a sequence of strikes but a single continuous motion. Once per fight, you slip the moment entirely — the enemy's reaction lags a half-second behind where you already are.</p>",
+    "treeType": "ki",
+    "treeName": "Void Path Tree",
+    "archetype": "VRArchIntrinsic1",
+    "tier": 1,
+    "effect": "Once per combat, move without triggering opportunity attacks."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Combat is a single motion — slip the moment",
+        "color": "#6a3d8f",
+        "tags": {
+          "Tree": "Void Path Tree",
+          "Tier": "1",
+          "Type": "ki"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

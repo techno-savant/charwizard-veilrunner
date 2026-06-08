@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscSorcEntr01",
+  "name": "Entropy Weave",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/sorcerer-entropy.webp",
+  "system": {
+    "parentClass": "VRClsSorcerer001",
+    "description": "<p>Entropy Weave is the Sorcerer discipline that turns probability itself into a weapon. Practitioners do not throw fireballs so much as encourage existing structures to fail. A weapon jams. A power coupling melts. A piece of structural concrete remembers it was tired. The Entropy Weaver smiles, and the room comes apart in small, plausible ways.</p><p>On the job, the Entropy Weaver is the runner who fixes problems by making them no longer want to exist. Their entry feature is Failure Cascade: as an action they may select a target object or single weapon in line of sight; that object suffers a critical failure or malfunction at the start of its next use.</p>",
+    "grants": "Failure Cascade: target object/weapon suffers critical failure or malfunction on next use."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Whisper the wrong word at the right machine and watch it fail",
+        "color": "#1a5c8a",
+        "tags": { "Class": "Sorcerer", "Focus": "Decay" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

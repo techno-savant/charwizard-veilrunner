@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscDemoIED001",
+  "name": "IED Architect",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/demo-ied.webp",
+  "system": {
+    "parentClass": "VRClsDemolit0001",
+    "description": "<p>IED Architect is the Demolitionist discipline for runners who think in ambushes. Practitioners build their own ordnance from the parts available on whatever side of whatever line they happen to be working. They design for context: a pressure plate in a hallway, a vibration trigger under a parked car, a thermal switch in an HVAC duct. Their work is patient, anonymous, and irrevocable.</p><p>On the job, the IED Architect arrives early and leaves residue. Their entry feature is Prepared Position: with a one-hour prep window before any engagement they may deploy up to two improvised devices in chosen locations, each with a defined trigger condition and damage profile.</p>",
+    "grants": "Prepared Position: with one hour of prep, deploy up to two improvised devices with custom triggers."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Decide the kill zone hours before anyone arrives",
+        "color": "#2d6e4e",
+        "tags": { "Class": "Demolitionist", "Focus": "Ambush" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

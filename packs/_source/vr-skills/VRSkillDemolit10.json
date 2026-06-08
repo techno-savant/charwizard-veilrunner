@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillDemolit10",
+  "name": "Demolitions",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Demolitions is the controlled application of catastrophic force: shaped charges, breaching frames, det-cord choreography. Sometimes the fastest way in is through the wall — and sometimes the fastest way out is the same way.</p>",
+    "group": "Technical",
+    "usesattribute": "logic",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Sometimes the fastest way in is through the wall",
+        "color": "#1a5a2a",
+        "tags": {
+          "Group": "Technical",
+          "Attribute": "Logic",
+          "Roll": "1d20 + LOG + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

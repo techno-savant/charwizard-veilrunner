@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillPerform10",
+  "name": "Performance",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Performance is the deliberate projection of a persona — singer, courier, dilettante, drunk, dignitary. Every run is theater. Know your role, hit your marks, and the audience writes your alibi for you.</p>",
+    "group": "Social",
+    "usesattribute": "charisma",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Every run is theater — know your role",
+        "color": "#6a2a6a",
+        "tags": {
+          "Group": "Social",
+          "Attribute": "Charisma",
+          "Roll": "1d20 + CHA + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

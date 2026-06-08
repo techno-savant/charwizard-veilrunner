@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsConjurer001",
+  "name": "Conjurer",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/conjurer.webp",
+  "system": {
+    "description": "<p>Conjurers are the runners who learned how to open the door and call something through it. They came up in occult academies, basement summoning rings, and the half-licensed binding schools that the corps quietly fund and quietly deny. They keep a working library of names, geometries, and apologies, and they revise it constantly.</p><p>On the job, the Conjurer is the operator who shows up alone and somehow is not. The blade that hovers, the form that crouches in the rafters, the second-self that walks the next floor over: these are not pets. They are agreements, fragile and renegotiated every time. The Conjurer is the only one who knows the price of breaking them.</p>",
+    "archetype": "VRArchMagical001",
+    "bonusSkills": 0,
+    "grants": "Summoning rituals, bound entity companion, portal and teleport effects."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Summoner who pulls allies and weapons from beyond the Veil",
+        "color": "#1a5c8a",
+        "tags": { "Archetype": "Magical", "Role": "Summoning" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

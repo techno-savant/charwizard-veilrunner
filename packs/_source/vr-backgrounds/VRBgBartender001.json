@@ -1,0 +1,26 @@
+{
+  "_id": "VRBgBartender001",
+  "name": "Bartender",
+  "type": "background",
+  "img": "modules/charwizard-veilrunner/art/backgrounds/acolyte.webp",
+  "system": {
+    "description": "<p>You worked the bar — maybe a chromed-out skytier lounge for off-shift execs, maybe a sublevel dive where the drinks were synth and the clientele were worse. Either way, you learned the same lesson: <em>everyone</em> talks to the bartender. Cops drinking off a bad shift. Corp middle managers complaining about their NDAs. Streeties bragging about jobs they should not be bragging about. Lovers ending things in the corner booth. You poured, you nodded, you remembered, and you never — never — repeated what you heard to the wrong person.</p><p>Which is exactly why the right people started paying you to repeat it to <b>them</b>. A name here, a rumor there, a tip about which fixer was going soft. You built a clientele the way other people build dossiers, and your bar became a node — a place where information settled like sediment and could be skimmed off with the right question. The runners need someone who reads people the way scanners read code, and they need a place where they can sit down, order something tall, and disappear for an hour. You have both.</p>",
+    "bonusSkills": 0,
+    "grants": "Bartender's kit (jiggers, mixers, a flask of something good), a regular shift or claim on a neighborhood bar, a small black book of names and tabs. Contact: a network of regulars — street sources, off-duty cops, low-level corp staff — who will talk over a drink."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Everyone talks to the bartender — everyone",
+        "color": "#6a3a1a",
+        "tags": {
+          "Skills": "+0 bonus skills",
+          "Contacts": "Street information network",
+          "Equipment": "Bartender's kit, neighborhood bar, little black book"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

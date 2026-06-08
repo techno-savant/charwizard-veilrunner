@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscDronStal01",
+  "name": "Stalker Unit",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/drone-stalker.webp",
+  "system": {
+    "parentClass": "VRClsDroneCom001",
+    "description": "<p>Stalker Unit is the Drone Commander discipline for runners who chose to invest everything in a single, irreplaceable hunter-killer. Practitioners spend years tuning one platform: a four-legged kinetic chassis, a high-altitude raptor drone, a silent quadruped infiltrator. The Stalker is not disposable. It is an extension of the Commander's will, and it is the most dangerous single object on most jobs.</p><p>On the job, the Stalker Unit commander is the runner whose teammate is also a chassis. Their entry feature is Hunter Bond: their Stalker drone is a full combat companion that levels with them, possesses a unique role specialization (kinetic, sensor, stealth, or assault), and may be repaired between sessions rather than replaced.</p>",
+    "grants": "Hunter Bond: persistent Stalker drone companion; chosen role specialization; repairable between sessions."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Build one perfect killer and walk beside it",
+        "color": "#2d6e4e",
+        "tags": { "Class": "Drone Commander", "Focus": "Hunter-Killer" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

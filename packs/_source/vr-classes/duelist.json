@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsDuelist0001",
+  "name": "Duelist",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/duelist.webp",
+  "system": {
+    "description": "<p>Duelists treat combat as a conversation, and they prefer to do most of the talking. They came up in private fencing salles, blade gangs, and the formal duel circuits the upper towers pretend not to host. Whether they favor a monomolecular saber, a pair of dueling pistols, or a heirloom shock-rapier, the Duelist's craft is the same: a single, perfect exchange settled before the third move.</p><p>On a job, the Duelist picks targets. They flow toward the lieutenant, the technician, the operator with the actual key. The rest of the crew handles volume; the Duelist handles the one cut that ends the engagement. They are vain about their footwork, and they have every right to be.</p>",
+    "archetype": "VRArchArmament01",
+    "bonusSkills": 1,
+    "grants": "Single-target precision attacks, parry mechanic, opportunist strike on missed enemy attacks."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Elegant single-combat specialist who finishes fights in one exchange",
+        "color": "#8b3a2a",
+        "tags": { "Archetype": "Armament", "Role": "Precision" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

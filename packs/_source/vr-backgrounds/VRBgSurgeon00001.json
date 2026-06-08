@@ -1,0 +1,26 @@
+{
+  "_id": "VRBgSurgeon00001",
+  "name": "Surgeon",
+  "type": "background",
+  "img": "modules/charwizard-veilrunner/art/backgrounds/acolyte.webp",
+  "system": {
+    "description": "<p>You are not a physician. Physicians manage. Surgeons <em>cut</em>. You trained your hands until they stopped shaking under any circumstance the medical board could imagine — and then trained them for the circumstances the board pretended did not exist. Maybe you did corp-grade chrome installations in a sterile suite, or trauma surgery on a hospital ship that orbited a war that everyone still denies, or off-the-books cyberware revisions on operating tables built from cargo crates. Wherever you worked, you got <b>precise</b>, and you got comfortable with the fact that most of what should stay inside a person can, with enough planning, come out and go back in.</p><p>That comfort frightens normal people. It does not frighten the runners. They need someone who can install combat-grade implants, extract a tracker from a partner's spinal column, or finish a job that started with a knife and a bad angle. You have a small circle of specialists you trust — anesthesiologists, neuro techs, cyberware fabricators, a black-market organ broker who, despite everything, is good company. You know the work is grim. You also know that nobody else in the room is going to do it as cleanly as you will.</p>",
+    "bonusSkills": 1,
+    "grants": "Surgical kit (scalpels, hemostats, bone saw, portable autodoc patch), sterile field kit, anesthesia injector. Contact: medical specialists — anesthesiologists, cyberware techs, or an organ broker — who will assist on jobs no licensed clinic would touch."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Precise, calm, and comfortable with things that should stay inside",
+        "color": "#1a5a5a",
+        "tags": {
+          "Skills": "+1 bonus skill",
+          "Contacts": "Medical specialists",
+          "Equipment": "Surgical kit, sterile field, anesthesia"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

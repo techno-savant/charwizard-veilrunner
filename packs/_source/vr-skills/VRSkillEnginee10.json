@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillEnginee10",
+  "name": "Engineering",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Engineering is the systematic understanding of built things: structures, power systems, mechanical assemblies, transit infrastructure. To build it, break it, or work around it, you first have to understand it.</p>",
+    "group": "Technical",
+    "usesattribute": "logic",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Build it, break it, understand it",
+        "color": "#1a5a2a",
+        "tags": {
+          "Group": "Technical",
+          "Attribute": "Logic",
+          "Roll": "1d20 + LOG + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

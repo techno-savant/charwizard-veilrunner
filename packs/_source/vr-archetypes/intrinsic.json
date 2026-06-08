@@ -1,0 +1,21 @@
+{
+  "_id": "VRArchIntrinsic1",
+  "name": "Intrinsic",
+  "type": "archetype",
+  "img": "modules/charwizard-veilrunner/art/archetypes/intrinsic.webp",
+  "system": {
+    "description": "<p>Intrinsics refuse the easy answers. They will not strap on a powered exoskeleton, nor chase the Veil for forbidden words of power, nor outsource their lethality to a drone. Instead, they spend decades grinding the body and mind into a single, terrible instrument. Whether forged in monastic enclaves above the cloud line or beaten into shape in the riot cages of the lower districts, the Intrinsic believes that the most dangerous weapon a runner can carry is the one nobody can take away.</p><p>On a job, Intrinsics are the operatives who walk through the checkpoint with empty hands and leave the room as the only one standing. They channel inner reserves through breathwork, neural conditioning, and disciplines older than the corps. Strip them of their gear and they become more dangerous, not less. The Veil has not yet found a scanner that can pick up the threat coiled behind their eyes.</p>",
+    "archetype": ""
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Warriors who channel inner power to transcend physical limits",
+        "color": "#6a3d8f",
+        "tags": { "Role": "Martial" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

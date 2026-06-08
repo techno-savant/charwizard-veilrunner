@@ -1,0 +1,29 @@
+{
+  "_id": "VRSpecTroll00001",
+  "name": "Troll",
+  "type": "species",
+  "img": "modules/charwizard-veilrunner/art/species/troll.webp",
+  "system": {
+    "description": "<p>Trolls are the largest metatype walking the sprawl, and the architecture has never quite forgiven them for it. Standing well over two and a half meters, with dermal plates that shrug off small-arms fire and a metabolism that runs on calories most humans only see at a buffet, a troll is closer to a piece of urban infrastructure than a person. The corps stopped pretending otherwise years ago — troll-rated doorways, troll-rated chairs, troll-rated body armor are all separate SKUs at the company store, and they all cost extra.</p><p>That mass comes with a real cognitive cost. Troll brains process slower in the early years, and the world has a hundred lazy ways of pretending that means dumb. It doesn't. Trolls who push past the bias often become the deepest thinkers in any room, precisely because they have learned to consider every angle before committing — and once a troll commits, the room reorganizes itself around the decision. In the shadows they are bodyguards, breachers, heavy gunners, and the occasional astonishingly patient face. You don't run from a troll; you negotiate.</p>",
+    "attrBonus": 0,
+    "bonusSkills": 0,
+    "size": "large",
+    "speed": 6,
+    "traits": []
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Apex physical specimens in any biome or battlefield",
+        "color": "#5a4a3a",
+        "tags": {
+          "Size": "Large",
+          "Speed": "6m",
+          "Bonus": "+2 STR, +2 BOD, -1 LOG"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

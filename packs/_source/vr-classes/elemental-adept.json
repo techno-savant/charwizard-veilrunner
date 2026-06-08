@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsElemAdept01",
+  "name": "Elemental Adept",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/elemental-adept.webp",
+  "system": {
+    "description": "<p>Elemental Adepts are the runners who specialize. Where a Sorcerer takes whatever destructive intent the Veil hands them, the Adept picks an element and refuses to be anything else. Fire. Cold. Lightning. Stone. They are not generalists, and they consider that focus a form of honesty. The work asks for a hammer, and they choose to be the best hammer in the room.</p><p>On the job, an Adept is a single, terrible note held perfectly. They reshape the engagement around their element: hallways become furnaces, courtyards become storms, walls become moving glaciers. The cost is flexibility, and the Adept does not pretend otherwise. When the day calls for their element, no one in the crew is more dangerous.</p>",
+    "archetype": "VRArchMagical001",
+    "bonusSkills": 0,
+    "grants": "Chosen element mastery, elemental resistance, terrain-shaping signature spells."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Single-element specialist who reshapes the battlefield to one elemental will",
+        "color": "#1a5c8a",
+        "tags": { "Archetype": "Magical", "Role": "Elements" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

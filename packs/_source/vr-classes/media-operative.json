@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsMediaOp0001",
+  "name": "Media Operative",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/media-operative.webp",
+  "system": {
+    "description": "<p>Media Operatives are the runners who learned that a camera and a press pass can open doors no shaped charge would dare touch. They came up in newsrooms that were not quite legitimate, freelance documentary circuits, or as the off-books war correspondent of an outlet that did not survive last year's purge. They tell stories for a living, and they have learned how a well-aimed story can rearrange a corporate boardroom faster than a missile.</p><p>On the job, the Media Operative is the runner who walks into the lobby with a credential, gets escorted past three checkpoints, and films the part of the floor everyone else needs eyes on. Afterward, they are the one shaping the public narrative, redirecting the heat, and burning the cover story of whichever rival faction needs burning that week.</p>",
+    "archetype": "VRArchSocial0001",
+    "bonusSkills": 1,
+    "grants": "Press cover identity, narrative-shaping influence, on-the-spot broadcast capability."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Embedded journalist who weaponizes the lens and the headline",
+        "color": "#7a5c2a",
+        "tags": { "Archetype": "Social", "Role": "Media" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

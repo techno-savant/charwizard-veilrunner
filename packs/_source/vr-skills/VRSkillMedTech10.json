@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillMedTech10",
+  "name": "MedTech",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>MedTech sits at the seam between Medical and Engineering: cyberware installation, neural interfaces, prosthetic calibration, biomonitor tuning, the long argument between flesh and the things bolted to it. If it breaks, you fix it. If it grows wrong, you understand why.</p>",
+    "group": "Technical",
+    "usesattribute": "intelligence",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Where medicine meets the machine",
+        "color": "#1a5a2a",
+        "tags": {
+          "Group": "Technical",
+          "Attribute": "Intelligence",
+          "Roll": "1d20 + INT + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

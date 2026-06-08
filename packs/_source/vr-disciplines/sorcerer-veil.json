@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscSorcVeil01",
+  "name": "Veil Surge",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/sorcerer-veil.webp",
+  "system": {
+    "parentClass": "VRClsSorcerer001",
+    "description": "<p>Veil Surge is the Sorcerer discipline for runners who chose to lean into the wound. Practitioners study the rhythms of the Veil itself and time their casting against its surges, accepting the feedback in exchange for output that ordinary casters cannot reach. The result is power on a scale that comes with a coroner's clock attached.</p><p>On the job, the Veil Surge Sorcerer is a tactical nuclear option in a leather coat. Their entry feature is Surge Channel: they may declare a Surge once per encounter, doubling the damage or area of a single spell while taking a modest amount of self-damage and accruing one Veil-burn point that takes time to clear.</p>",
+    "grants": "Surge Channel: once per encounter, double a spell's damage or area; self-damage and Veil-burn accrual."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Ride the wave and pay the bill",
+        "color": "#1a5c8a",
+        "tags": { "Class": "Sorcerer", "Focus": "Overload" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

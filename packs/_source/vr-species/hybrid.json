@@ -1,0 +1,29 @@
+{
+  "_id": "VRSpecHybrid0001",
+  "name": "Hybrid",
+  "type": "species",
+  "img": "modules/charwizard-veilrunner/art/species/hybrid.webp",
+  "system": {
+    "description": "<p>Hybrids are the children — sometimes literal, sometimes the lab-grown kind — of two metatypes that the post-Veil genome was not entirely sure how to reconcile. A half-elf with dwarf grandparents. A human-ork cross that came out somewhere uncategorizable. A vat-built mosaic where someone, somewhere, decided the species lines were a suggestion. Each hybrid is genuinely one of a kind, and most carry the social tax of belonging to no single community fully.</p><p>That outsider position turns out to be a competitive advantage in the shadows, where being unreadable is worth more than being impressive. Hybrids tend to be flexible across attributes rather than dominant in any one, and they often arrive at problems from angles no monolithic metatype would think to try. The corps' demographic profiles can't quite predict them. Their families sometimes don't know what to do with them. The work, however, always does.</p>",
+    "attrBonus": 1,
+    "bonusSkills": 1,
+    "size": "medium",
+    "speed": 6,
+    "traits": []
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Mixed heritage, unique potential",
+        "color": "#6a4a6a",
+        "tags": {
+          "Size": "Medium",
+          "Speed": "6m",
+          "Bonus": "+1 to three attrs"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

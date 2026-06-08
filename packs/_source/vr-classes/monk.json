@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsMonk0000001",
+  "name": "Monk",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/monk.webp",
+  "system": {
+    "description": "<p>Monks are the runners who chose discipline as a weapon. They trained in the highland enclaves above the smog ceiling, in the urban dojos hidden behind noodle shops, or in the personal silence of a single teacher and a single student. What they share is a refusal to let the body be a passive object. Every breath, every step, every angle of the wrist is something they have rehearsed ten thousand times.</p><p>On the job, a Monk closes distance faster than the opposition expects and disengages just as cleanly. They strike unarmed and unarmored, trusting placement and timing where others trust ceramic plates. Their stillness reads as harmless until the moment it does not, and by then the conversation has already changed.</p>",
+    "archetype": "VRArchIntrinsic1",
+    "bonusSkills": 1,
+    "grants": "Unarmed strike scaling, evasive movement, meditative focus pool."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Disciplined martial artist who turns the body into a precision weapon",
+        "color": "#6a3d8f",
+        "tags": { "Archetype": "Intrinsic", "Role": "Unarmed" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

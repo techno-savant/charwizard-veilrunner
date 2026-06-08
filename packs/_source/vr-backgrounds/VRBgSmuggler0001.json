@@ -1,0 +1,26 @@
+{
+  "_id": "VRBgSmuggler0001",
+  "name": "Smuggler",
+  "type": "background",
+  "img": "modules/charwizard-veilrunner/art/backgrounds/acolyte.webp",
+  "system": {
+    "description": "<p>You move things — across borders, through scanners, past inspectors who have a quota to hit and a kid to feed. Pharma blocked by patent. Hardware embargoed for export. People whose biometrics are flagged in three orbital registries. The corps spent trillions building a customs grid; you spent a decade learning where it forgets to look. You think in <em>routes</em> — gravity-well skims, off-cycle dock windows, the freight line that the inspector's brother-in-law runs — and you keep a map in your head that nobody else has written down.</p><p>The gap between legal and profitable is wide enough to fly a hauler through, and you have. You know which port authority takes scrip and which one only takes favors. You know the dropship pilots, the warehouse managers, the orbital riggers, and the back-channel buyers waiting on the other end of every run. Some of them like you. Most of them owe you. The runners need someone who can get gear, contraband, or a body — alive or otherwise — from point A to point B without leaving a trace. You priced that job a long time ago.</p>",
+    "bonusSkills": 0,
+    "grants": "Forged customs chits and shipping manifests, a hidden compartment built into your favorite jacket or case, a single emergency dead-drop location. Contact: a fence, dock worker, or freight pilot in a criminal network who will move cargo or people on short notice."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "The gap between legal and profitable is where you live",
+        "color": "#3a1a3a",
+        "tags": {
+          "Skills": "+0 bonus skills",
+          "Contacts": "Criminal network",
+          "Equipment": "Forged manifests, hidden compartment, dead drop"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

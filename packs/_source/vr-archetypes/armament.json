@@ -1,0 +1,21 @@
+{
+  "_id": "VRArchArmament01",
+  "name": "Armament",
+  "type": "archetype",
+  "img": "modules/charwizard-veilrunner/art/archetypes/armament.webp",
+  "system": {
+    "description": "<p>The Armament archetype gathers those who have made peace with the simple, brutal calculus of firepower. While others chase relics of the Veil or play three-dimensional chess with the corporate towers, Armaments solve problems with steel, ceramic, and tungsten. They train in the gun ranges of abandoned arcologies, the underground duel pits of the lower sprawl, and the private war colleges that the megacorps pretend do not exist. Every dent in their gear is a story, every modification a hard-won lesson.</p><p>To run with an Armament is to trust that the loadout has been checked, the angles have been measured, and the killbox has been chosen long before the first shot rings out. They are not subtle, but they are precise. In a world where reality itself can be rewritten by a sufficiently funded sorcerer, the Armament's answer is the same as it has been for ten thousand years: bring a bigger gun, aim it better, and pull the trigger first.</p>",
+    "archetype": ""
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Combat specialists who dominate through superior weaponry",
+        "color": "#8b3a2a",
+        "tags": { "Role": "Combat" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

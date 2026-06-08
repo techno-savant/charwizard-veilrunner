@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsVanguard001",
+  "name": "Vanguard",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/vanguard.webp",
+  "system": {
+    "description": "<p>Vanguards are the runners who stand between the team and the bad day. They came up in private security details, riot lines, and the security elements of caravan companies that did not exist on any map. They learned early that the body is a wall and that walls are useful. The Vanguard's reflexes are tuned not for the kill but for the intercept: the shove, the block, the body interposed between a teammate and a bullet.</p><p>On the job, the Vanguard is the one anchoring the doorway, the choke point, the only stretch of cover that matters. They read threats the way a chess player reads tempo, and they will trade a piece of themselves to keep the line from breaking. The rest of the crew gets to run because the Vanguard already decided not to.</p>",
+    "archetype": "VRArchIntrinsic1",
+    "bonusSkills": 0,
+    "grants": "Heavy armor mastery, taunt and intercept mechanics, damage mitigation aura."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Frontline protector who anchors the team and absorbs the worst",
+        "color": "#6a3d8f",
+        "tags": { "Archetype": "Intrinsic", "Role": "Defense" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

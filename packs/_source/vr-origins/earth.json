@@ -1,0 +1,25 @@
+{
+  "_id": "VROrigEarth00001",
+  "name": "Earth",
+  "type": "origin",
+  "img": "modules/charwizard-veilrunner/art/origins/earth.webp",
+  "system": {
+    "description": "<p>Earth is the place where the megacorps learned to walk and then forgot to leave. Every arcology that scrapes the troposphere, every gated enclave behind its own private weather system, every flooded coast and reclaimed inland sea — all of it traces back to decisions made in conference rooms here, mostly by people who never had to live with the consequences. To grow up on Earth is to grow up surrounded by the original sin of the corporate century: the brands are older than your grandparents, the debt is older than your bloodline, and the surveillance is so ambient you stop noticing it the way fish stop noticing water.</p><p>That density of history shapes a character in specific ways. Earthers know how systems work because they have been inside one their whole lives — which neighborhood the cops actually answer in, which corp logo on a uniform means you walk faster, which subway line still runs and which one is a tomb. They have also seen the resistance, in every flavor from union picket to bombed-out distribution center, and they tend to have an opinion about which flavors actually move the needle. An Earther arrives at the table with a thick stack of priors. Some of those priors will save the team's life. Some of them will get an argument started that the team will never quite finish.</p>",
+    "bonusSkills": 1,
+    "grants": "Earth Origin grants 1 bonus skill, knowledge of Earth's corporate and political landscape, and a starting contact within an Earth-based faction (corporate, criminal, civic, or resistance — player's choice)."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Where the megacorps were born and the resistance started",
+        "color": "#2a5a2a",
+        "tags": {
+          "Location": "Earth",
+          "Influence": "Corporate"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

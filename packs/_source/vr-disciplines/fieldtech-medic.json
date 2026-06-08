@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscFTechMed01",
+  "name": "Combat Medic",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/fieldtech-medic.webp",
+  "system": {
+    "parentClass": "VRClsFieldTech01",
+    "description": "<p>Combat Medic is the Field Technician discipline for those who decided the most important asset on any job is a teammate still breathing. They trained in the trauma wings of contested cities, in the field hospitals of corporate brushfire wars, or as the unofficial patcher of choice for a crew that could not call a real ambulance. Their kit is meticulous: clotting foam, autoinjector arrays, neural-trauma resuscitation rigs they built themselves.</p><p>On the job, the Combat Medic is the runner who turns a near-fatal wound into a story the team will tell over drinks. Their entry feature is Trauma Protocol: as an action they may stabilize a downed ally and restore them to operational status with reduced HP, once per encounter without expending consumables.</p>",
+    "grants": "Trauma Protocol: once per encounter, free revive and stabilization of a downed ally."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Drag the crew back from the line that should have ended them",
+        "color": "#8b3a2a",
+        "tags": { "Class": "Field Technician", "Focus": "Medical" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

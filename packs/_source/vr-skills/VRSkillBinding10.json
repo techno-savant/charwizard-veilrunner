@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillBinding10",
+  "name": "Binding",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Binding is the art of holding what does not want to be held: spirits, summoned things, contracts that have weight in the Veil. A binding is only as strong as the will behind it, and the bound always wait to test that will.</p>",
+    "group": "Magical",
+    "usesattribute": "willpower",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Hold what should not be held",
+        "color": "#1a2a7a",
+        "tags": {
+          "Group": "Magical",
+          "Attribute": "Willpower",
+          "Roll": "1d20 + WIL + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

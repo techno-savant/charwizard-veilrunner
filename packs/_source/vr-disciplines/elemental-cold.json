@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscElemCold01",
+  "name": "Coldsnap Adept",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/elemental-cold.webp",
+  "system": {
+    "parentClass": "VRClsElemAdept01",
+    "description": "<p>Coldsnap Adept is the Elemental Adept discipline for runners who chose stillness, condensation, and the slow heat-death of opposition. Practitioners are patient and famously calm. They train in cold rooms, in glacial enclaves, in the kind of corporate cryogenics lab that pretends not to have a public relations problem. They have a complicated relationship with comfort.</p><p>On the job, the Coldsnap Adept slows the engagement to their preferred pace. Their entry feature is Freeze Hold: any spell they cast may be tagged as cold-aspected; once per encounter they may cause an affected target to suffer a major movement and reaction penalty until the end of the target's next turn.</p>",
+    "grants": "Freeze Hold: spells gain cold aspect; once per encounter a target suffers movement/reaction penalty."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Slow the room down until it forgets how to fight",
+        "color": "#1a5c8a",
+        "tags": { "Class": "Elemental Adept", "Focus": "Cold" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

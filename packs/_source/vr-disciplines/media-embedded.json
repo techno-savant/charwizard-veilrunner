@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscMediaEmbd1",
+  "name": "Embedded Press",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/media-embedded.webp",
+  "system": {
+    "parentClass": "VRClsMediaOp0001",
+    "description": "<p>Embedded Press is the Media Operative discipline for runners whose cover identity is the actual identity. They hold real credentials with real outlets, often more than one, and they file genuine work in the spaces between jobs. They have spent years cultivating a reputation as a particular kind of journalist, and the corps believe them because the corps have read their bylines.</p><p>On the job, the Embedded Press operative is the runner the security officer will personally escort to the conference room. Their entry feature is Credentialed Access: once per session the operative may invoke their press credentials to gain reasonable, surveilled access to a controlled location without raising hostile suspicion.</p>",
+    "grants": "Credentialed Access: once per session, gain non-hostile surveilled access to a controlled location."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Walk past the checkpoint with a press pass and a smile",
+        "color": "#7a5c2a",
+        "tags": { "Class": "Media Operative", "Focus": "Access" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscMarkGhos01",
+  "name": "Ghost Sight",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/marksman-ghost.webp",
+  "system": {
+    "parentClass": "VRClsMarksman001",
+    "description": "<p>Ghost Sight is the Marksman discipline that took the patient scout doctrine of the pre-Veil military and married it to the optics packages that came out of the corporate arms races afterward. Its practitioners think of themselves less as shooters than as professional listeners. They watch a rooftop for hours, identify the rotation patterns, and put a single round through the right window at the right moment.</p><p>On the job, the Ghost Sight Marksman is rarely close to the team. Their entry feature is Veiled Position: while they have not moved or attacked for one full round, they become functionally invisible to electronic surveillance, gain extreme cover from observation, and their next ranged attack benefits from a major precision bonus.</p>",
+    "grants": "Veiled Position: after one still round, become invisible to sensors and gain major precision bonus on next shot."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Be the silence the target never hears coming",
+        "color": "#8b3a2a",
+        "tags": { "Class": "Marksman", "Focus": "Stealth" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsDruid000001",
+  "name": "Druid",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/druid.webp",
+  "system": {
+    "description": "<p>Druids are the runners who kept listening after everyone else stopped. They came up in the rewilded zones where the corporate plantations failed, in the rooftop gardens of the lower towers, or in tradition lines older than the Veil itself. They negotiate. With weather, with vermin, with the stubborn green threads that pry concrete apart in slow centuries. The Veil shaped them but did not invent them.</p><p>On the job, the Druid speaks for the parts of the world the rest of the crew has been trained to ignore. They turn a rooftop into an ambush, a feral dog pack into an escort, a storm front into cover. They are not gentle; they have seen what civilization does and they have made their choice about which side they sit on.</p>",
+    "archetype": "VRArchMagical001",
+    "bonusSkills": 1,
+    "grants": "Animal and plant communion, weather and terrain shaping, biological transformation."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Nature-bound caster who turns the wild world into an ally and weapon",
+        "color": "#1a5c8a",
+        "tags": { "Archetype": "Magical", "Role": "Nature" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

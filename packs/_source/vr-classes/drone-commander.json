@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsDroneCom001",
+  "name": "Drone Commander",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/drone-commander.webp",
+  "system": {
+    "description": "<p>Drone Commanders are the runners whose presence in the room is mostly elsewhere. They came up in robotics labs, military UAV teams, or the gray-market courier networks that taught them how to bend a fleet of small machines to a single will. Their hands rest on a control rig; their attention spans three rooftops and an air column.</p><p>On the job, the Drone Commander is rarely where the gunfire is. Their assets are: scout flyers that have already mapped the building, kinetic platforms holding overwatch, breach drones that crawl through the duct work and emerge inconvenient. The Commander themselves is calm, deliberate, and almost bored. The drones are not.</p>",
+    "archetype": "VRArchTechnic001",
+    "bonusSkills": 1,
+    "grants": "Drone companion suite, remote control rig, fleet command actions."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Remote operator who fights through a fleet of specialized drones",
+        "color": "#2d6e4e",
+        "tags": { "Archetype": "Technical", "Role": "Drones" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscSuppSieg01",
+  "name": "Siege Engine",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/suppressor-siege.webp",
+  "system": {
+    "parentClass": "VRClsSuppressor1",
+    "description": "<p>Siege Engine is the Suppressor discipline for runners whose answer to a fortified position is to dismantle the fortification. Practitioners specialize in heavy automatic weapons fed by oversized magazines, vehicle-mounted platforms ripped off their mounts, and shoulder-fired packages that should require a tripod. They have learned to brace, to compensate, and to keep firing through recoil that would put a normal operator in physical therapy.</p><p>On the job, the Siege Engine Suppressor is the runner the team brings out when the obstacle is structural. Their entry feature is Wall Breaker: their sustained fire treats cover and light structures as if they had reduced damage thresholds, and a single sustained burst can punch a usable opening through most non-reinforced walls.</p>",
+    "grants": "Wall Breaker: sustained fire reduces cover/light-structure thresholds; can breach non-reinforced walls."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Make the building stop being a building",
+        "color": "#8b3a2a",
+        "tags": { "Class": "Suppressor", "Focus": "Demolition Fire" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

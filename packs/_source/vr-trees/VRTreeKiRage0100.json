@@ -1,0 +1,31 @@
+{
+  "_id": "VRTreeKiRage0100",
+  "name": "Primal Surge",
+  "type": "feature",
+  "img": "modules/charwizard-veilrunner/art/icons/tree-default.webp",
+  "system": {
+    "description": "<p>The Berserker calls something older than language — a controlled letting-go of the part of the mind that flinches. The world narrows. Pain becomes information. For a minute, almost nothing on the field can move you.</p>",
+    "treeType": "ki",
+    "treeName": "Berserker Tree",
+    "archetype": "VRArchIntrinsic1",
+    "tier": 1,
+    "effect": "Enter Rage as a bonus action: +2 to Strength checks and resist physical damage for 1 minute."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Let go of the part of you that flinches",
+        "color": "#6a3d8f",
+        "tags": {
+          "Tree": "Berserker Tree",
+          "Tier": "1",
+          "Type": "ki"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

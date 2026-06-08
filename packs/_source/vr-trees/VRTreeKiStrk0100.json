@@ -1,0 +1,31 @@
+{
+  "_id": "VRTreeKiStrk0100",
+  "name": "Strike of the Unbroken",
+  "type": "feature",
+  "img": "modules/charwizard-veilrunner/art/icons/tree-default.webp",
+  "system": {
+    "description": "<p>The first lesson of the Iron Fist is the simplest: a body trained in earnest is itself the weapon. Your stance settles, your knuckles harden, your unarmed strikes carry the weight of years of practice — even if the years are just beginning.</p>",
+    "treeType": "ki",
+    "treeName": "Iron Fist Tree",
+    "archetype": "VRArchIntrinsic1",
+    "tier": 1,
+    "effect": "+1 damage on unarmed strikes; gain Unarmed proficiency."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "The body, trained in earnest, is the weapon",
+        "color": "#6a3d8f",
+        "tags": {
+          "Tree": "Iron Fist Tree",
+          "Tier": "1",
+          "Type": "ki"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

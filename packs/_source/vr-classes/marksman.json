@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsMarksman001",
+  "name": "Marksman",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/marksman.webp",
+  "system": {
+    "description": "<p>Marksmen are the runners who solve problems from the next zip code over. They came up in military scout units, competitive long-range circuits, or as the patient apprentice of an older shooter who taught them that the trigger is the last thing that happens, not the first. They are obsessive about wind, glass, and breath. They have rebuilt their primary rifle so many times it could not be traced if they wanted it to.</p><p>On the job, the Marksman is the voice on comms calling out movement two minutes before anyone else can see it. When the situation goes sideways, they are the reason the principal target never makes it to the helicopter. They prefer to take exactly one shot per engagement. Anything more is a planning failure.</p>",
+    "archetype": "VRArchArmament01",
+    "bonusSkills": 0,
+    "grants": "Extreme-range accuracy, scout vision tools, called-shot critical scaling."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Long-range precision shooter who removes problems from a kilometer out",
+        "color": "#8b3a2a",
+        "tags": { "Archetype": "Armament", "Role": "Ranged" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

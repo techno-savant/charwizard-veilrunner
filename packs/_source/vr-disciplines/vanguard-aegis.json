@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscVangAegi01",
+  "name": "Aegis Protocol",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/vanguard-aegis.webp",
+  "system": {
+    "parentClass": "VRClsVanguard001",
+    "description": "<p>Aegis Protocol is the operational doctrine for Vanguards who think in defensive coverage zones. It came out of an old corporate executive protection program, was refined in the post-Veil riot years, and now lives in field manuals that no one quite admits to owning. The Aegis Vanguard treats every engagement as a fluid network of cover lines, line-of-sight angles, and protected silhouettes.</p><p>On the job, an Aegis Vanguard does not simply tank; they manage shielding for the entire team. Their entry feature is Guardian Link: they designate one ally per turn as Linked, and any incoming attack against that ally may be intercepted by the Vanguard if they are within five meters, transferring damage to the Vanguard's armor pool first.</p>",
+    "grants": "Guardian Link: designate Linked ally each turn; intercept incoming hits within 5m, absorbing them on the Vanguard."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Run the network of shields that keeps the crew alive",
+        "color": "#6a3d8f",
+        "tags": { "Class": "Vanguard", "Focus": "Protection" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

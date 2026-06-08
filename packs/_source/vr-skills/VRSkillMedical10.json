@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillMedical10",
+  "name": "Medical",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Medical covers field medicine and clinical practice: stop the bleeding, restart the heart, set the bone, identify the toxin, read the vitals, keep someone alive long enough to argue with you about it later. The order of operations changes — the goal does not.</p>",
+    "group": "Physical",
+    "usesattribute": "intelligence",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Patch, stabilize, revive — order varies",
+        "color": "#5a3a1a",
+        "tags": {
+          "Group": "Physical",
+          "Attribute": "Intelligence",
+          "Roll": "1d20 + INT + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsChemSpec001",
+  "name": "Chemical Specialist",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/chemical-specialist.webp",
+  "system": {
+    "description": "<p>Chemical Specialists are the runners who turned a chemistry degree, a coroner's apprenticeship, or a homebrew narcotics lab into a career on the edges of the law. They speak fluently in molarity, vapor pressure, and lethal dose. Their kit is a rolling pharmacy: stimulants that buy ninety seconds of perfect clarity, toxins that drop a man between two heartbeats, gels that eat steel plate without leaving residue.</p><p>On the job, the Chemical Specialist is a quiet horror. They precondition the engagement zone, dose the team for the work ahead, and leave the scene more chemically interesting than they found it. They are also the medic the crew really wants when an exotic toxin shows up uninvited.</p>",
+    "archetype": "VRArchTechnic001",
+    "bonusSkills": 1,
+    "grants": "Custom compound brewing, chemical analysis, deployable toxin and stim doses."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Chemist-warrior who turns molecules into precision weapons",
+        "color": "#2d6e4e",
+        "tags": { "Archetype": "Technical", "Role": "Chemistry" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

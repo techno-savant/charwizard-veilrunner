@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscInveProf01",
+  "name": "Profile Analysis",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/inv-profile.webp",
+  "system": {
+    "parentClass": "VRClsInvestig001",
+    "description": "<p>Profile Analysis is the Investigator discipline for runners who came up in behavioral science divisions, corporate insider-threat teams, or the quieter rooms of the law enforcement world. They study the patterns of a single individual until they can predict the next twenty minutes of that individual's life: which door they will use, which lie they are about to tell, which subordinate they will text under pressure.</p><p>On the job, the Profile Analyst is the runner who can answer the question the rest of the team forgot to ask. Their entry feature is Read the Subject: after observing or studying a target for at least ten minutes, the Investigator gains insight into one of the target's current motivations, weaknesses, or near-term intentions, as adjudicated by the table.</p>",
+    "grants": "Read the Subject: after 10 minutes of study, learn one of a target's motivations, weaknesses, or intentions."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Read the person until the next move is already known",
+        "color": "#7a5c2a",
+        "tags": { "Class": "Investigator", "Focus": "Behavioral" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

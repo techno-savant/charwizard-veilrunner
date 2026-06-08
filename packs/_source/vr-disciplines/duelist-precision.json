@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscDuelPrec01",
+  "name": "Precision Striker",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/duelist-precision.webp",
+  "system": {
+    "parentClass": "VRClsDuelist0001",
+    "description": "<p>Precision Strikers are the Duelists who believe that style is for amateurs. They live in the math of the engagement: angles of attack, momentum transfer, the exact millimeter where the plate carrier seam meets the armpit. They train against high-end opposition simulators and against each other, and they regard a fight that lasts more than three exchanges as a failure of preparation.</p><p>On the job, the Precision Striker chooses one target and finishes them. Their entry feature is Surgical Strike: when they attack a target they have studied for at least one round, the attack rolls with advantage and ignores a portion of the target's armor.</p>",
+    "grants": "Surgical Strike: studied targets are attacked with advantage and partial armor bypass."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Read the target, choose the seam, end the conversation",
+        "color": "#8b3a2a",
+        "tags": { "Class": "Duelist", "Focus": "Precision" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

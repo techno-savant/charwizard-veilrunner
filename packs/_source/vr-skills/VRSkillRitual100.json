@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillRitual100",
+  "name": "Ritual",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Ritual is slow magic: the careful work of hours or days that achieves what no quick cast can. Without haste, without limit — but also without retreat. A ritual interrupted is a price unpaid, and the Veil always collects.</p>",
+    "group": "Magical",
+    "usesattribute": "wisdom",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Power without haste — power without limit",
+        "color": "#1a2a7a",
+        "tags": {
+          "Group": "Magical",
+          "Attribute": "Wisdom",
+          "Roll": "1d20 + WIS + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillStealth10",
+  "name": "Stealth",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Stealth is geography weaponized. You read sightlines, sound carry, camera arcs, patrol cadence — and you put yourself in the seam between all of it. A skilled runner doesn't hide; they simply are not where attention is.</p>",
+    "group": "Physical",
+    "usesattribute": "agility",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Shadows are infrastructure",
+        "color": "#5a3a1a",
+        "tags": {
+          "Group": "Physical",
+          "Attribute": "Agility",
+          "Roll": "1d20 + AGI + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

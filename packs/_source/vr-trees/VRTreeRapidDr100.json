@@ -1,0 +1,31 @@
+{
+  "_id": "VRTreeRapidDr100",
+  "name": "Rapid Draw",
+  "type": "feature",
+  "img": "modules/charwizard-veilrunner/art/icons/tree-default.webp",
+  "system": {
+    "description": "<p>The Duelist's first virtue is initiative. Reps, holster geometry, smartlink priming — by the time anyone realizes the conversation is over, your weapon is already in your hand and pointed where it needs to be.</p>",
+    "treeType": "combat",
+    "treeName": "Duelist Tree",
+    "archetype": "VRArchArmament01",
+    "tier": 1,
+    "effect": "Draw a weapon and make one attack as a single action."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Initiative is its own discipline",
+        "color": "#8b3a2a",
+        "tags": {
+          "Tree": "Duelist Tree",
+          "Tier": "1",
+          "Type": "combat"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillIntimid10",
+  "name": "Intimidation",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Intimidation is leverage made physical: posture, proximity, silence, the small implication of what happens if the conversation goes badly. The best intimidator rarely raises their voice; the worst rarely needs to.</p>",
+    "group": "Social",
+    "usesattribute": "presence",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Fear is the oldest negotiating tactic",
+        "color": "#6a2a6a",
+        "tags": {
+          "Group": "Social",
+          "Attribute": "Presence",
+          "Roll": "1d20 + PRE + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

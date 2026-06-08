@@ -1,0 +1,26 @@
+{
+  "_id": "VRBgAcolyte00001",
+  "name": "Acolyte",
+  "type": "background",
+  "img": "modules/charwizard-veilrunner/art/backgrounds/acolyte.webp",
+  "system": {
+    "description": "<p>You served something larger than yourself — a cathedral with stained synthglass windows, an arcology shrine humming with prayer-bots, or a back-alley congregation that worshipped <em>something</em> the megacorps tried very hard to erase. Whether your faith was old-world doctrine or a brand-new heresy spun out of net-mystic forums, you took it seriously enough to wear the robes, learn the rites, and answer when the call came. You know how rituals comfort the desperate, how doctrine controls the faithful, and how every religious institution — sacred or otherwise — keeps secrets it cannot afford to confess.</p><p>Then something shifted. Maybe you saw the order's books. Maybe a parishioner died because the clinic across the street was corp-locked. Maybe the call you answered was not the one you were told to expect. You still believe in <b>something</b>, even if it is no longer the thing they ordained you for, and the network of clergy, almsfolk, and quiet doubters you cultivated still answers your messages. That network is why the runners brought you in. Faith opens doors that money cannot.</p>",
+    "bonusSkills": 0,
+    "grants": "Religious vestments (street or formal), prayer focus or holy symbol, well-worn doctrinal text. Contact: a sympathetic clergy member or congregation willing to offer sanctuary, information, or a discreet ear."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Faith or doctrine — either way, you answered a call",
+        "color": "#7a6a2a",
+        "tags": {
+          "Skills": "+0 bonus skills",
+          "Contacts": "Religious network",
+          "Equipment": "Vestments, holy symbol, doctrinal text"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

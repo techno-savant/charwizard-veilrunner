@@ -1,0 +1,31 @@
+{
+  "_id": "VRTreeDroneEye10",
+  "name": "Drone Eye",
+  "type": "feature",
+  "img": "modules/charwizard-veilrunner/art/icons/tree-default.webp",
+  "system": {
+    "description": "<p>The first lesson of Drone Command is that the operator is always the most exposed person on the team — unless they have eyes everywhere else first. You deploy a small surveillance asset that feeds directly to your HUD, and you start seeing what the team cannot.</p>",
+    "treeType": "hacking",
+    "treeName": "Drone Command Tree",
+    "archetype": "VRArchTechnic001",
+    "tier": 1,
+    "effect": "Deploy a surveillance drone that broadcasts to your HUD."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "See first; everything else follows",
+        "color": "#2d6e4e",
+        "tags": {
+          "Tree": "Drone Command Tree",
+          "Tier": "1",
+          "Type": "hacking"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

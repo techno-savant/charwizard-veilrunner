@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillAcrobat10",
+  "name": "Acrobatics",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Acrobatics is the art of moving through hostile space: tumbling under autofire, landing a four-story drop, vaulting railings, slipping a grapple, threading the gap between two passing maglevs. Where Athletics is power, Acrobatics is precision in motion.</p>",
+    "group": "Physical",
+    "usesattribute": "agility",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Move like the city itself isn't trying to stop you",
+        "color": "#5a3a1a",
+        "tags": {
+          "Group": "Physical",
+          "Attribute": "Agility",
+          "Roll": "1d20 + AGI + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

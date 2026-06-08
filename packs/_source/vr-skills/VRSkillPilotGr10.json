@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillPilotGr10",
+  "name": "Piloting (Ground)",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Piloting (Ground) covers any wheeled, tracked, or hover platform that stays close to the deck: bikes, sedans, transit trucks, riot carriers. Speed and surface are a conversation, and the pilot who controls it walks away from the wreck the others left behind.</p>",
+    "group": "Technical",
+    "usesattribute": "reaction",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Control at speed is its own art form",
+        "color": "#1a5a2a",
+        "tags": {
+          "Group": "Technical",
+          "Attribute": "Reaction",
+          "Roll": "1d20 + REA + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsPolitici001",
+  "name": "Politician",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/politician.webp",
+  "system": {
+    "description": "<p>Politicians are the runners who hold actual offices, real titles, or the kind of unofficial authority that everyone in the district quietly acknowledges. They came up in municipal councils, district unions, or the back-room machinery of a corporate enclave's pretend democracy. They have learned the formal grammar of power: who signs which document, which committee can stall which initiative, which agency can be redirected by a single phone call from the right person.</p><p>On the job, the Politician is the runner who arranges that the inspector does not visit, the warrant does not get filed, and the alternate route stays open until five minutes after the team is through it. They prefer to do their fighting in offices with good carpet, and they tend to win those fights.</p>",
+    "archetype": "VRArchSocial0001",
+    "bonusSkills": 2,
+    "grants": "Formal authority leverage, bureaucratic action manipulation, legal cover invocation."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Practitioner of formal power who rewrites the rules from inside the room",
+        "color": "#7a5c2a",
+        "tags": { "Archetype": "Social", "Role": "Politics" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

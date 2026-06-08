@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscInflCult01",
+  "name": "Cult of Persona",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/infl-cult.webp",
+  "system": {
+    "parentClass": "VRClsInfluenc001",
+    "description": "<p>Cult of Persona is the Influencer discipline for runners who built a following deep enough that the following will mobilize on command. Practitioners are not entertainers; they are figureheads. They have a core audience that has been with them for years and a tone of voice that those followers will recognize through any disguise. Their power is not breadth but devotion.</p><p>On the job, the Cult of Persona Influencer can summon a crowd at will. Their entry feature is Faithful Mob: once per session the Influencer may post an emergency signal to their core audience, generating a coordinated in-person presence of devoted followers at a chosen location within a short response window. The crowd is not combatants, but they are bodies, witnesses, and useful chaos.</p>",
+    "grants": "Faithful Mob: once per session, summon a coordinated in-person crowd of devoted followers."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Call the faithful and let the room fill",
+        "color": "#7a5c2a",
+        "tags": { "Class": "Influencer", "Focus": "Devotion" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

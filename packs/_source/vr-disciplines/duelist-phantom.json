@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscDuelPhan01",
+  "name": "Phantom Blade",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/duelist-phantom.webp",
+  "system": {
+    "parentClass": "VRClsDuelist0001",
+    "description": "<p>Phantom Blade is the Duelist tradition that crossed paths with the Veil one too many times and never came all the way back. Its practitioners study the bladework of classical fencing through a haze of dissociative meditation, training to strike at angles that should not have been available. Their weapons are often heirlooms with whisper-thin monomolecular edges and storage somewhere that is not quite a holster.</p><p>On the job, a Phantom Blade closes the distance before observers register the movement. Their entry feature is Drawn from Nowhere: their primary blade is treated as concealed and instantly accessible, and their first attack on any combat round may be made before initiative is rolled if they have line of sight to a chosen target.</p>",
+    "grants": "Drawn from Nowhere: pre-initiative first strike on a chosen target; blade always treated as concealed."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Strike from the angles the rest of the world forgot to defend",
+        "color": "#8b3a2a",
+        "tags": { "Class": "Duelist", "Focus": "Surprise" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

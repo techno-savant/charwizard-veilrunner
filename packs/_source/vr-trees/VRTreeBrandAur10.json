@@ -1,0 +1,31 @@
+{
+  "_id": "VRTreeBrandAur10",
+  "name": "Brand Aura",
+  "type": "feature",
+  "img": "modules/charwizard-veilrunner/art/icons/tree-default.webp",
+  "system": {
+    "description": "<p>Influence in public space is half wardrobe, half algorithm. You curate both with intent — the cut of the jacket, the cadence of the feed, the implication of belonging to something the listener wants to belong to as well.</p>",
+    "treeType": "social",
+    "treeName": "Influence Tree",
+    "archetype": "VRArchSocial0001",
+    "tier": 1,
+    "effect": "Creatures that see you in public have disadvantage resisting your Persuasion."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Half wardrobe, half algorithm",
+        "color": "#7a5c2a",
+        "tags": {
+          "Tree": "Influence Tree",
+          "Tier": "1",
+          "Type": "social"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

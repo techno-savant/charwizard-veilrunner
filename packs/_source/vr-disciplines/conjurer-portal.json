@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscConjPort01",
+  "name": "Portal Weaver",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/conjurer-portal.webp",
+  "system": {
+    "parentClass": "VRClsConjurer001",
+    "description": "<p>Portal Weaver is the Conjurer discipline for runners who decided the most important thing they could summon was a route. Practitioners study the geometry of Veil-stitched doorways the way other casters study spell components, and they keep working maps of pinch points, weak walls, and accessible elsewheres. They are the runners the team consults when the extraction plan looks impossible.</p><p>On the job, the Portal Weaver makes geography negotiable. Their entry feature is Stitch Door: once per encounter they may open a short-range portal between two points within line of sight, persisting for one round, large enough for the team to move through in single file.</p>",
+    "grants": "Stitch Door: once per encounter, open a short-range portal between two LoS points for one round."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Make geography a suggestion",
+        "color": "#1a5c8a",
+        "tags": { "Class": "Conjurer", "Focus": "Teleportation" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

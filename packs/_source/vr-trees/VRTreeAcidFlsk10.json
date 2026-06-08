@@ -1,0 +1,31 @@
+{
+  "_id": "VRTreeAcidFlsk10",
+  "name": "Acid Flask",
+  "type": "feature",
+  "img": "modules/charwizard-veilrunner/art/icons/tree-default.webp",
+  "system": {
+    "description": "<p>Chemistry's first practical lesson: turn a few cheap precursors into a small glass bottle of something that eats through composite plate. Two per rest, no questions at customs because there isn't any customs where you're going.</p>",
+    "treeType": "hacking",
+    "treeName": "Chemistry Tree",
+    "archetype": "VRArchTechnic001",
+    "tier": 1,
+    "effect": "Craft 2 acid flasks per rest: 2d4 acid damage on hit."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Cheap precursors, expensive consequences",
+        "color": "#2d6e4e",
+        "tags": {
+          "Tree": "Chemistry Tree",
+          "Tier": "1",
+          "Type": "hacking"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

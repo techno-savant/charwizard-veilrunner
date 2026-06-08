@@ -1,0 +1,26 @@
+{
+  "_id": "VRBgUnderworld01",
+  "name": "Underworld Operative",
+  "type": "background",
+  "img": "modules/charwizard-veilrunner/art/backgrounds/acolyte.webp",
+  "system": {
+    "description": "<p>You did not stumble into the underworld. You were <em>recruited</em>. A syndicate noticed you — maybe at sixteen, maybe at thirty — and made you useful: collections, surveillance, intimidation, the occasional wet job that nobody put on a ledger. You learned the syndicate's rules, which were not the city's rules and were sometimes the opposite of them, and you learned that the corps and the cartels are the same organism wearing different suits. They launder for each other. They hire each other's enforcers. The only real difference is which one prints the press releases.</p><p>That made you valuable to people on every side. You know the bagmen, the lieutenants, the fixers, the corp liaisons who pretend they do not take meetings in syndicate clubs. You know what the megacorps pay to keep <b>buried</b> — names, body counts, joint ventures dressed up as charity, the children of executives who needed problems to disappear. The runners want that knowledge, and they want the contacts that come with it. You came along because the syndicate's protection no longer feels like protection, and because the runners pay in something more useful than loyalty: leverage.</p>",
+    "bonusSkills": 0,
+    "grants": "Concealed sidearm or blade, encrypted comm with a few syndicate-side contacts, a small float of clean cash. Contact: a mid-level operator inside a criminal syndicate who will pass messages, arrange meets, or provide muscle for the right price."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "You know what the corps pay to keep buried",
+        "color": "#2a1a1a",
+        "tags": {
+          "Skills": "+0 bonus skills",
+          "Contacts": "Criminal syndicate",
+          "Equipment": "Concealed weapon, encrypted comm, clean cash"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

@@ -1,0 +1,26 @@
+{
+  "_id": "VRBgArtist000001",
+  "name": "Artist",
+  "type": "background",
+  "img": "modules/charwizard-veilrunner/art/backgrounds/acolyte.webp",
+  "system": {
+    "description": "<p>You made things — and you made people <em>look</em>. Maybe it was projection-murals scrawled across corp tower facades at three in the morning, or live haptic theatre in an unlicensed warehouse, or sound-sculptures pirated onto the city's emergency frequencies. Your medium is less important than your insistence: art that does not provoke is just decoration, and decoration is what the megacorps sell. You learned to read a room, hold a stage, work a crowd, and survive the kind of attention that follows when your work lands too hard.</p><p>The scene took care of you the way scenes do — couches to crash on, fixers who knew which curators were also informants, a small army of collaborators, ex-lovers, and rivals who would still pick up the line if you called. Somewhere along the way the work got <b>noticed</b> by the wrong people, or the right ones, and now you trade favors with gallery owners, club bookers, pirate broadcasters, and the occasional patron whose money smells faintly of blood. The runners want you because you can sell anything — including the truth — to anyone willing to listen.</p>",
+    "bonusSkills": 1,
+    "grants": "Tools of your craft (instrument, projector, brush kit, or rig), a portable speaker or display, a signature piece of wearable art. Contact: an underground gallery, venue, or pirate broadcast collective that will host, hide, or amplify you."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Your work speaks; you just make sure people listen",
+        "color": "#8a2a6a",
+        "tags": {
+          "Skills": "+1 bonus skill",
+          "Contacts": "Underground arts scene",
+          "Equipment": "Artist's tools, portable rig, signature piece"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

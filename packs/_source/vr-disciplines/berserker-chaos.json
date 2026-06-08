@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscBersChaos1",
+  "name": "Path of Chaos",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/berserker-chaos.webp",
+  "system": {
+    "parentClass": "VRClsBerserker01",
+    "description": "<p>The Chaos Berserker has stopped pretending the storm follows orders. Where the Titan tries to focus the rage, the Chaos walker rides it. They train themselves to read the unpredictable second-order effects of their own violence, to thrive in the smoke and broken concrete where a normal operator would freeze. Their rage state runs hotter, shorter, and weirder; every fight becomes a kind of jazz solo with consequences.</p><p>On the job, Chaos Berserkers are the runners no one models correctly. Their entry feature is Whirling Carnage: when they hit one target with a melee attack while raging, they may roll a separate, lesser strike against a different adjacent target chosen at random from those in reach. The team learns to keep their distance.</p>",
+    "grants": "Whirling Carnage: melee hits while raging trigger a secondary swing against an adjacent target."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Ride the rage and let the violence find its own targets",
+        "color": "#6a3d8f",
+        "tags": { "Class": "Berserker", "Focus": "Chaos" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

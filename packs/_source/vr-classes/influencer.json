@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsInfluenc001",
+  "name": "Influencer",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/influencer.webp",
+  "system": {
+    "description": "<p>Influencers are the runners who realized, somewhere on the way up, that an audience is a kind of armor. They came up on stream platforms, in the loyalty-program militias of the upper towers, or as the carefully styled mouthpiece of a fixer who needed a public face. They cultivate a following the way an Armament cultivates a loadout, and they bring it with them everywhere.</p><p>On the job, the Influencer's reach is the asset. They can flash-mob a checkpoint, sway a hostile crowd into something more useful, or surface an off-the-record detail by asking the right viewer the right way. Their critics call them shallow. Their critics also tend to underestimate the body count that follows a sufficiently popular livestream.</p>",
+    "archetype": "VRArchSocial0001",
+    "bonusSkills": 2,
+    "grants": "Audience network leverage, social swarm summons, reputation-based persuasion."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Audience-powered operator who turns a following into a weapon",
+        "color": "#7a5c2a",
+        "tags": { "Archetype": "Social", "Role": "Influence" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

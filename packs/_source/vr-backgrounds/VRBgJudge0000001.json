@@ -1,0 +1,26 @@
+{
+  "_id": "VRBgJudge0000001",
+  "name": "Judge",
+  "type": "background",
+  "img": "modules/charwizard-veilrunner/art/backgrounds/acolyte.webp",
+  "system": {
+    "description": "<p>You wore the robe. Maybe in a civic court still pretending to be independent, maybe in a corp arbitration chamber where the verdicts were determined before the docket loaded, maybe in a circuit tribunal that rode between orbital habs ruling on contract disputes. You learned the law as a <em>language</em> — and like any language, it could be used to free or to cage depending on who held the dictionary. You were, by most measures, good at it. You were also, eventually, honest enough to find that unbearable.</p><p>The case that ended your career — and you know exactly which one — taught you that justice is a tool, not a virtue, and that the hand on the handle decides what gets cut. You still have access to the legal world, though: clerks who file things quietly, defense attorneys who remember favorable rulings, prosecutors who would rather not see your name on opposing counsel's witness list. The runners do not need a verdict from you. They need someone who can read a contract like a weapon, predict what a court will do before it does it, and call in a favor from someone in a black robe who still answers to you. That, you can do.</p>",
+    "bonusSkills": 1,
+    "grants": "Annotated legal codices on datapad, formal court attire, signet or seal of office (possibly revoked). Contact: clerks, attorneys, or sitting judges who will file, advise, or quietly tip you off about proceedings."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Justice is a tool — who wields it determines what it cuts",
+        "color": "#2a2a6a",
+        "tags": {
+          "Skills": "+1 bonus skill",
+          "Contacts": "Legal system",
+          "Equipment": "Legal codices, court attire, seal of office"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

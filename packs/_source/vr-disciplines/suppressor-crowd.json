@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscSuppCrwd01",
+  "name": "Crowd Control",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/suppressor-crowd.webp",
+  "system": {
+    "parentClass": "VRClsSuppressor1",
+    "description": "<p>Crowd Control is the Suppressor discipline for runners who learned to dial back the lethality and dial up the geometry. They came up in riot units, corporate facility security, and private contracts that demanded the room be cleared without filling the morgue. Their kit favors less-lethal ordnance: rubber slugs, gas grenades, sonic emitters, electrified barricade fields.</p><p>On the job, the Crowd Control Suppressor is the runner who turns a hostile mob into a moving herd. Their entry feature is Disperse: a single area attack may be declared as non-lethal and applies a forced-movement effect, pushing all affected targets a number of meters in a chosen direction.</p>",
+    "grants": "Disperse: area attack declared non-lethal; pushes all affected targets in a chosen direction."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Move the crowd. Empty the room. Keep the body count low",
+        "color": "#8b3a2a",
+        "tags": { "Class": "Suppressor", "Focus": "Non-Lethal" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

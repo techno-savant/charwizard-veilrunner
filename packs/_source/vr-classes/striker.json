@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsStriker0001",
+  "name": "Striker",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/striker.webp",
+  "system": {
+    "description": "<p>Strikers are the runners who close. They came up in breach teams, fast-response units, and the kind of street crew that learned early that the second second of a fight is more important than the first. They favor short, brutal weapons paired with mid-range autofire, the loadout of an operator who is going to be in three rooms in the next forty seconds.</p><p>On the job, the Striker is the one who hits the door first and never quite stops moving. They are aggressive in the way that good assault doctrine is aggressive: not reckless, but committed. The plan turns on them being in the breach when it counts, and they have spent years getting comfortable with the feeling.</p>",
+    "archetype": "VRArchArmament01",
+    "bonusSkills": 0,
+    "grants": "Breach and clear movement, combined arms assault stance, momentum-based attack bonuses."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Aggressive assault operator who breaches, clears, and keeps moving",
+        "color": "#8b3a2a",
+        "tags": { "Archetype": "Armament", "Role": "Assault" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

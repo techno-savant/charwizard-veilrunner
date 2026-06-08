@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscBersTitan1",
+  "name": "Path of the Titan",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/berserker-titan.webp",
+  "system": {
+    "parentClass": "VRClsBerserker01",
+    "description": "<p>The Titan walks the slow, heavy path. Where other Berserkers chase speed, the Titan chooses mass. They train under loads that break smaller runners, condition their joints with stim cycles that the corporate medicos refuse to certify, and learn to plant a foot in the world like a structural element. When a Titan enters Rage, the room rearranges itself around them: floors creak, cover deforms, the engagement slows to their tempo.</p><p>The Titan is the one teammate who can break a vehicle barricade with a shoulder and a four-step run-up. They favor great-hammers, double-weight axes, and shock mauls scaled past sensible specifications. Their entry feature is the Titan's Grip: while raging, the Titan wields two-handed weapons as if one-handed and uses the off-hand to grapple, shove, or break what should not be breakable.</p>",
+    "grants": "Titan's Grip: two-handed weapons usable one-handed while raging; bonus shove/grapple action."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Become the immovable, irresistible mass at the heart of the storm",
+        "color": "#6a3d8f",
+        "tags": { "Class": "Berserker", "Focus": "Mass" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

@@ -1,0 +1,31 @@
+{
+  "_id": "VRTreeStrInfo100",
+  "name": "Street Informant",
+  "type": "feature",
+  "img": "modules/charwizard-veilrunner/art/icons/tree-default.webp",
+  "system": {
+    "description": "<p>Your contacts are not friends and not employees — they are a slow-built constellation of debts, favors, and shared dislikes. Once per session, that constellation answers a question for you that no public source could.</p>",
+    "treeType": "social",
+    "treeName": "Network Tree",
+    "archetype": "VRArchSocial0001",
+    "tier": 1,
+    "effect": "Once per session, learn one secret about a target from your contacts."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Debts and favors, slow-built",
+        "color": "#7a5c2a",
+        "tags": {
+          "Tree": "Network Tree",
+          "Tier": "1",
+          "Type": "social"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

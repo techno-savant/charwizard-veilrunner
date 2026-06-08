@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillSurviva10",
+  "name": "Survival",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Survival is the discipline of outlasting environments that are actively hostile — undercity sumps, irradiated outerwastes, sealed corporate arcologies after the air recyclers fail. Find water. Find shelter. Find food. Keep moving. The wilds and the cities both want you dead in their own way.</p>",
+    "group": "Physical",
+    "usesattribute": "constitution",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Cities and wilds both want you dead — outlast them",
+        "color": "#5a3a1a",
+        "tags": {
+          "Group": "Physical",
+          "Attribute": "Constitution",
+          "Roll": "1d20 + CON + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

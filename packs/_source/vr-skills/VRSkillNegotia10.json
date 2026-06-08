@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillNegotia10",
+  "name": "Negotiation",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Negotiation is the formal cousin of Persuasion: terms, leverage, walkaway thresholds, multi-party deals. Value isn't fixed — it's whatever both sides agree to in the room, and the runner who understands that owns the room.</p>",
+    "group": "Social",
+    "usesattribute": "presence",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Value is whatever both parties agree it is",
+        "color": "#6a2a6a",
+        "tags": {
+          "Group": "Social",
+          "Attribute": "Presence",
+          "Roll": "1d20 + PRE + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

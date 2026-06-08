@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillPersuad10",
+  "name": "Persuasion",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Persuasion is the craft of moving another person from one position to another using reason, framing, empathy, and timing — without lies. A skilled persuader doesn't push; they make agreement feel like the listener's own idea.</p>",
+    "group": "Social",
+    "usesattribute": "presence",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "The right words at the right time open any door",
+        "color": "#6a2a6a",
+        "tags": {
+          "Group": "Social",
+          "Attribute": "Presence",
+          "Roll": "1d20 + PRE + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

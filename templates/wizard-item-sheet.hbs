@@ -1,0 +1,38 @@
+<form class="wizard-item-sheet flexcol">
+  <header class="sheet-header">
+    <img class="item-img" src="{{item.img}}" alt="{{item.name}}" data-edit="img" title="{{item.name}}"/>
+    <div class="header-fields">
+      <h1 class="charname">
+        <input name="name" type="text" value="{{item.name}}" placeholder="Item Name"/>
+      </h1>
+      {{#if wizFlags.tagline}}
+        <p class="tagline">{{wizFlags.tagline}}</p>
+      {{/if}}
+    </div>
+  </header>
+
+  {{#if wizFlags.heroImg}}
+    <div class="hero-image">
+      <img src="{{wizFlags.heroImg}}" alt="{{item.name}}"/>
+    </div>
+  {{/if}}
+
+  {{#if hasTags}}
+    <div class="wizard-tags">
+      {{#each wizFlags.tags as |value key|}}
+        <div class="tag-row">
+          <span class="tag-label">{{key}}:</span>
+          <span class="tag-chip">{{value}}</span>
+        </div>
+      {{/each}}
+    </div>
+  {{/if}}
+
+  <div class="description-section">
+    <label>Description</label>
+    <div class="editor">
+      <div class="editor-content" data-edit="system.description">{{{description}}}</div>
+    </div>
+  </div>
+
+</form>

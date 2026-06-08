@@ -1,0 +1,132 @@
+.wizard-item-sheet {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  padding: 8px;
+  font-family: var(--font-primary, sans-serif);
+}
+
+.wizard-item-sheet .sheet-header {
+  display: flex;
+  align-items: flex-start;
+  gap: 10px;
+  border-bottom: 1px solid var(--color-border-light-tertiary, #ccc);
+  padding-bottom: 8px;
+}
+
+.wizard-item-sheet .item-img {
+  width: 52px;
+  height: 52px;
+  object-fit: contain;
+  border: 1px solid var(--color-border-light-tertiary, #ccc);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.wizard-item-sheet .header-fields {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 2px;
+}
+
+.wizard-item-sheet .charname input {
+  font-size: 1.1rem;
+  font-weight: 600;
+  border: none;
+  border-bottom: 1px solid transparent;
+  background: transparent;
+  width: 100%;
+  padding: 2px 0;
+}
+
+.wizard-item-sheet .charname input:focus {
+  border-bottom-color: var(--color-border-dark, #888);
+  outline: none;
+}
+
+.wizard-item-sheet .tagline {
+  font-style: italic;
+  color: var(--color-text-light-6, #888);
+  margin: 0;
+  font-size: 0.85rem;
+}
+
+.wizard-item-sheet .hero-image {
+  max-height: 180px;
+  overflow: hidden;
+  border-radius: 4px;
+}
+
+.wizard-item-sheet .hero-image img {
+  width: 100%;
+  object-fit: cover;
+  border-radius: 4px;
+}
+
+.wizard-item-sheet .wizard-tags {
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+  padding: 4px 0;
+}
+
+.wizard-item-sheet .tag-row {
+  display: flex;
+  align-items: center;
+  gap: 6px;
+  font-size: 0.82rem;
+}
+
+.wizard-item-sheet .tag-label {
+  color: var(--color-text-dark-secondary, #555);
+  font-weight: 600;
+  min-width: 72px;
+  text-align: right;
+  flex-shrink: 0;
+}
+
+.wizard-item-sheet .tag-chip {
+  display: inline-block;
+  background: var(--color-bg-option, #e8e4df);
+  border: 1px solid var(--color-border-light-secondary, #bbb);
+  border-radius: 10px;
+  padding: 1px 8px;
+  color: var(--color-text-dark-primary, #222);
+  font-size: 0.78rem;
+  line-height: 1.5;
+}
+
+.wizard-item-sheet .description-section {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}
+
+.wizard-item-sheet .description-section label {
+  font-size: 0.8rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
+  color: var(--color-text-light-6, #888);
+}
+
+.wizard-item-sheet .editor {
+  flex: 1;
+  border: 1px solid var(--color-border-light-tertiary, #ccc);
+  border-radius: 4px;
+  padding: 8px;
+  min-height: 160px;
+  overflow-y: auto;
+  background: var(--color-bg-input, #fff);
+}
+
+.wizard-item-sheet .editor-content {
+  font-size: 0.9rem;
+  line-height: 1.6;
+}
+
+.wizard-item-sheet .editor-content p { margin: 0 0 0.5em; }
+.wizard-item-sheet .editor-content ul,
+.wizard-item-sheet .editor-content ol { padding-left: 1.4em; margin: 0 0 0.5em; }

@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscMarkSupr01",
+  "name": "Suppressing Fire",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/marksman-suppress.webp",
+  "system": {
+    "parentClass": "VRClsMarksman001",
+    "description": "<p>Suppressing Fire is the Marksman discipline for operators who decided the best shot is the one the enemy makes worse. They study the psychology of being shot at and use single, perfectly placed rounds to keep entire squads pinned without ever needing to put a body down. Their craft is a precise kind of intimidation.</p><p>On the job, the Suppressing Fire Marksman is the voice on comms saying that nobody on the third floor will be standing up any time soon. Their entry feature is Pinning Round: a single ranged attack may be designated as Pinning, forcing all enemies within a chosen area to suffer a major penalty on offensive actions until the start of the Marksman's next turn.</p>",
+    "grants": "Pinning Round: designate an area; enemies inside suffer attack penalties until the Marksman's next turn."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Pin the field with one shot at a time",
+        "color": "#8b3a2a",
+        "tags": { "Class": "Marksman", "Focus": "Suppression" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

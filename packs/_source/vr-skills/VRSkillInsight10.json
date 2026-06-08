@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillInsight10",
+  "name": "Insight",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Insight is sustained attention to another person's tells, motivations, and incongruities. Did the contact's pupils dilate at the wrong word? Is the fixer's leg tapping when it shouldn't be? Read them before they read you, and you write the contract instead of signing it.</p>",
+    "group": "Social",
+    "usesattribute": "intuition",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Reading people before they read you",
+        "color": "#6a2a6a",
+        "tags": {
+          "Group": "Social",
+          "Attribute": "Intuition",
+          "Roll": "1d20 + INU + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

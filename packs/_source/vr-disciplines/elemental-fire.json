@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscElemFire01",
+  "name": "Firestorm Adept",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/elemental-fire.webp",
+  "system": {
+    "parentClass": "VRClsElemAdept01",
+    "description": "<p>Firestorm Adept is the Elemental Adept discipline for runners who chose heat and combustion as their entire vocabulary. They study oxidation, plasma dynamics, and the slow ritual practice of holding a flame in the palm without flinching. Their training tends to leave a particular kind of mark on their hands and their irises, and they regard those marks as credentials.</p><p>On the job, the Firestorm Adept is a moving heat event. Their entry feature is Ignite: any spell they cast may be tagged as fire-aspected, and once per encounter they may cause the affected zone to continue burning for one additional round, dealing residual fire damage to any creature that ends its turn inside the area.</p>",
+    "grants": "Ignite: spells gain fire aspect; once per encounter affected areas burn for an extra round."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Let the room remember what fire wants",
+        "color": "#1a5c8a",
+        "tags": { "Class": "Elemental Adept", "Focus": "Fire" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

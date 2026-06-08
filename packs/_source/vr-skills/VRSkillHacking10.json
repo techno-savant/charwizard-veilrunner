@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillHacking10",
+  "name": "Hacking",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Hacking is the unauthorized practice of access. ICE, authentication chains, log scrubbing, lateral movement, exfil. Systems are just doors, and the runners who survive are the ones who treat locks as suggestions.</p>",
+    "group": "Digital",
+    "usesattribute": "logic",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Systems are just doors without locks you know how to pick",
+        "color": "#1a4a6a",
+        "tags": {
+          "Group": "Digital",
+          "Attribute": "Logic",
+          "Roll": "1d20 + LOG + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

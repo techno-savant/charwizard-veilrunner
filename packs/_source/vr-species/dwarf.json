@@ -1,0 +1,29 @@
+{
+  "_id": "VRSpecDwarf00001",
+  "name": "Dwarf",
+  "type": "species",
+  "img": "modules/charwizard-veilrunner/art/species/dwarf.webp",
+  "system": {
+    "description": "<p>Dwarves are short, broad, and built to outlast whatever the world throws at them — which, in the Veil era, is a lot. Their bones are denser, their organs more redundant, their tolerance for toxins and radiation famously high. That last trait is why so many dwarves run the deep-maintenance crews under the arcologies, the reactor pits on Luna, and the smelters on the orbital forges. The corps love them down there. Dwarves love that the corps need them.</p><p>Culturally they are clannish without being closed; a dwarf will hand you a beer and a job offer in the same sentence, then expect you to remember both for the next thirty years. Their reputation for stubbornness is earned, but it is less about pride than about pattern recognition: a dwarf has usually already been through the bad version of whatever you are proposing. Underestimate one and you'll get a wrench to the kneecap and a calm explanation of exactly why you deserved it.</p>",
+    "attrBonus": 0,
+    "bonusSkills": 0,
+    "size": "medium",
+    "speed": 5,
+    "traits": []
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Stone-born endurance in a world of neon and grime",
+        "color": "#8b6914",
+        "tags": {
+          "Size": "Medium",
+          "Speed": "5m",
+          "Bonus": "+2 BOD, +1 CON"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

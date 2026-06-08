@@ -1,0 +1,30 @@
+{
+  "_id": "VRSkillDecept100",
+  "name": "Deception",
+  "type": "skill",
+  "img": "modules/charwizard-veilrunner/art/icons/skill-default.webp",
+  "system": {
+    "description": "<p>Deception is controlled untruth: cover identities, sleight of hand at the conversation level, false tells, mixing enough truth in to make the lie load-bearing. Truth is a tool — and so is everything that isn't.</p>",
+    "group": "Social",
+    "usesattribute": "charisma",
+    "bonus": 0,
+    "pinned": false
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Truth is a tool; use it when it works",
+        "color": "#6a2a6a",
+        "tags": {
+          "Group": "Social",
+          "Attribute": "Charisma",
+          "Roll": "1d20 + CHA + Rank"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

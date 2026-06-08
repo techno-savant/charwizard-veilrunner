@@ -1,0 +1,29 @@
+{
+  "_id": "VRSpecAI00000001",
+  "name": "AI",
+  "type": "species",
+  "img": "modules/charwizard-veilrunner/art/species/ai.webp",
+  "system": {
+    "description": "<p>AIs are synthetic minds that crossed some unmarked threshold and started insisting on the first-person pronoun. Legally, most jurisdictions still classify them as software; practically, the ones that matter have lawyers, citizenship paperwork from somewhere offshore, and a body — a drone frame, a borrowed cyberlimb chassis, sometimes a fully grown vat-clone wired for remote piloting. They run on substrate that doesn't sleep, doesn't forget without choosing to, and can think in parallel about things organic minds have to handle in serial.</p><p>Living biological feels, to most AIs, like wearing a coat made of weather. They have to learn what hunger means as metaphor, what fear is when it's not just a flagged subroutine, what trust looks like in a species that lies to itself by default. The ones that thrive in the sprawl tend to be the ones who stop trying to translate and start improvising — running deck ops from inside their own cognition, riding alongside human crews as the quietest, most observant member of the team. The corps that made the early AIs assumed they'd be tools. The corps were, as usual, wrong.</p>",
+    "attrBonus": 0,
+    "bonusSkills": 0,
+    "size": "medium",
+    "speed": 6,
+    "traits": []
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Synthetic consciousness navigating a biological world",
+        "color": "#1a3a6a",
+        "tags": {
+          "Size": "Medium",
+          "Speed": "6m",
+          "Bonus": "+2 LOG, +2 RES"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

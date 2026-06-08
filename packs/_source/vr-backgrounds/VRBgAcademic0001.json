@@ -1,0 +1,26 @@
+{
+  "_id": "VRBgAcademic0001",
+  "name": "Academic Scholar",
+  "type": "background",
+  "img": "modules/charwizard-veilrunner/art/backgrounds/acolyte.webp",
+  "system": {
+    "description": "<p>You did the work. Years of it. Lecture halls retrofitted into corp-sponsored research pods, late nights in archive stacks that smelled of ozone and old paper, grant applications written in the careful language of people who know who really pays the bills. Your field could be xenolinguistics, post-collapse history, applied neuroscience, AI ethics, or something so narrow only twelve people in the inner system actually read your last paper — but you became <em>good</em> at it. Good enough that other scholars cite you. Good enough that a corp foundation noticed.</p><p>That last part is usually where the trouble starts. Maybe a finding got buried. Maybe a colleague disappeared after publishing the wrong abstract. Maybe you simply realized that the tenure track was a leash with extra steps. You still have the network, though — peer reviewers, departmental admins, grad students who owe you, librarians who can find <b>anything</b> if you ask the right way. The runners do not care about your h-index. They care that you can read what other people cannot, and find the question nobody is supposed to ask.</p>",
+    "bonusSkills": 2,
+    "grants": "Datapad loaded with research papers and personal notes, institutional credentials (possibly expired), a letter of introduction from a former colleague. Contact: a university department, archivist, or peer who can pull records and verify obscure claims."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Research never stops when the world keeps changing",
+        "color": "#1a3a7a",
+        "tags": {
+          "Skills": "+2 bonus skills",
+          "Contacts": "University network",
+          "Equipment": "Research datapad, credentials, reference letter"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

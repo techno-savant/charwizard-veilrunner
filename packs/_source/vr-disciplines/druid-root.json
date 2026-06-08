@@ -1,0 +1,22 @@
+{
+  "_id": "VRDiscDrudRoot01",
+  "name": "Rootweave Circle",
+  "type": "subclass",
+  "img": "modules/charwizard-veilrunner/art/disciplines/druid-root.webp",
+  "system": {
+    "parentClass": "VRClsDruid000001",
+    "description": "<p>Rootweave Circle is the Druid discipline for runners who treat the plant world as infrastructure. They came up among urban farmers, guerrilla rewilders, and the kind of old practitioner who still remembers how to talk a vine into climbing a particular wall. They are patient, methodical, and unsentimental about the price the concrete pays.</p><p>On the job, the Rootweave Druid shapes the terrain itself. Their entry feature is Bind Earth: they may target a square within line of sight and cause living root and vine structures to surge through the floor and walls, creating difficult terrain and immobilizing any unbraced target in that square at the start of their next turn.</p>",
+    "grants": "Bind Earth: create rooted difficult terrain and immobilize unbraced targets in a chosen square."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Let the green claim back the room one root at a time",
+        "color": "#1a5c8a",
+        "tags": { "Class": "Druid", "Focus": "Terrain" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

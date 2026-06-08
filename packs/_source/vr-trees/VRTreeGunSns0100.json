@@ -1,0 +1,31 @@
+{
+  "_id": "VRTreeGunSns0100",
+  "name": "Gunslinger Sense",
+  "type": "feature",
+  "img": "modules/charwizard-veilrunner/art/icons/tree-default.webp",
+  "system": {
+    "description": "<p>The Marksman learns to read cover the way a tracker reads brush: every edge a sightline, every gap a window. Inside thirty meters, partial concealment isn't enough to save a target you've already decided to hit.</p>",
+    "treeType": "combat",
+    "treeName": "Marksman Tree",
+    "archetype": "VRArchArmament01",
+    "tier": 1,
+    "effect": "Ignore cover penalties on targets within 30 meters."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Read every edge as a sightline",
+        "color": "#8b3a2a",
+        "tags": {
+          "Tree": "Marksman Tree",
+          "Tier": "1",
+          "Type": "combat"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": {
+    "default": 0
+  }
+}

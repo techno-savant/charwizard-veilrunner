@@ -1,0 +1,29 @@
+{
+  "_id": "VRSpecHuman00001",
+  "name": "Human",
+  "type": "species",
+  "img": "modules/charwizard-veilrunner/art/species/human.webp",
+  "system": {
+    "description": "<p>Humans are the unsigned signature on every corporate boardroom, slum tenement, and orbital habitat from Earth's gravity well to the dark stations beyond the Belt. They are the most numerous metatype, the most politically entrenched, and somehow still the most underestimated. A century into the Veil era, humanity remains the species that pivots fastest — burning out faster, adapting harder, and outliving the bets corporations placed against it. Their adaptability isn't a gift; it's a survival reflex baked into a thousand generations of getting punched in the mouth by reality.</p><p>In the sprawl, a human is the wildcard variable. They run shadow ops, code daemons that eat governments, sell their bone marrow to the gene boutiques on Level Six, and still find time to start a band. Some chrome themselves into walking arsenals, others trust nothing but their meat and their gut. Humans don't have the trolls' raw mass or the elves' lifespan, but they have momentum — and in a multiverse that punishes hesitation, momentum is its own kind of magic.</p>",
+    "attrBonus": 2,
+    "bonusSkills": 0,
+    "size": "medium",
+    "speed": 6,
+    "traits": []
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Relentless, adaptable, and everywhere",
+        "color": "#2c5f8a",
+        "tags": {
+          "Size": "Medium",
+          "Speed": "6m",
+          "Bonus": "Any +2"
+        }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}

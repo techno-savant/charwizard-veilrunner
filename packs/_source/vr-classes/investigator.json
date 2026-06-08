@@ -1,0 +1,23 @@
+{
+  "_id": "VRClsInvestig001",
+  "name": "Investigator",
+  "type": "class",
+  "img": "modules/charwizard-veilrunner/art/classes/investigator.webp",
+  "system": {
+    "description": "<p>Investigators are the runners who win jobs in the week before the team kicks the door. They came up in detective bureaus, corporate due diligence shops, freelance journalism, or just an unhealthy childhood obsession with figuring out what the adults were lying about. They know how to read a room, a balance sheet, and a person, and they understand that all three are usually telling the same story.</p><p>On the job, the Investigator is the reason the plan exists. They have already walked the route, identified the guard's afternoon coffee habit, and compromised one minor records clerk. Their tools are subtle: a directional mic, an off-the-books database subscription, a half-developed friendship with someone who should have known better. They are the crew's eyes long before the crew is on site.</p>",
+    "archetype": "VRArchSocial0001",
+    "bonusSkills": 2,
+    "grants": "Investigation insight bonuses, surveillance toolkit, lead-following inference actions."
+  },
+  "flags": {
+    "charwizard": {
+      "wizard": {
+        "tagline": "Patient investigator who maps the target long before the team moves",
+        "color": "#7a5c2a",
+        "tags": { "Archetype": "Social", "Role": "Intel" }
+      }
+    }
+  },
+  "effects": [],
+  "ownership": { "default": 0 }
+}
