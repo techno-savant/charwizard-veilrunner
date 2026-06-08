@@ -6,6 +6,8 @@
     "build": "vite build",
     "dev": "vite build --watch",
     "typecheck": "tsc --noEmit",
+    "preversion": "npm run typecheck",
+    "postversion": "git push --follow-tags",
     "pack": "node scripts/pack.mjs",
     "unpack": "node scripts/unpack.mjs"
   },
