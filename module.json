@@ -1,7 +1,7 @@
 {
   "id": "charwizard-veilrunner",
   "title": "CharWizard — Veilrunner",
-  "description": "Character creation wizard for the Veilrunner homebrew system.",
+  "description": "Part of the Demiurge Toolkit. Character creation wizard for the Veilrunner homebrew system.",
   "version": "0.1.0",
   "compatibility": {
     "minimum": "12",
